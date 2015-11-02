@@ -25,7 +25,7 @@ favicon: /public/img/deer3.png
 # google analytics 设置
 ga:
   id: UA-69573285-1 
-  url: http://xiaofeiyangyang.github.io
+  url: xiaofeiyangyang.github.io
 
 # disqus 设置
 disqus:
