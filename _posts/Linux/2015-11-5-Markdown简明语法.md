@@ -1,4 +1,13 @@
-#Markdown语法的学习
+---
+layout: post
+title: Markdown简明语法
+category: Linux
+tags: Markdown
+keywords: 
+description: 
+---
+
+#Markdown简明语法
 ##编辑器
 * 我认为想用Markdown来作为以后的主要写作工具,有一个称心如意的编辑器是不可少的,我在Linux下用的是[Haroopress](http://pad.haroopress.com/),是一个非常酷的编辑器,如果你也准备用Markdown不妨尝试一下,有着Sbulime text的启动速度,还有自动补全功能,是一个写作的好帮手,当然是同时支持Linux、Windows、Mac、三个操作系统的.
 * **Haroopress**
