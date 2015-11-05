@@ -4,7 +4,7 @@ title: <i class="fa fa-user fa-lg"></i>
 titlename: 关于
 ---
 <h3>关于博客</h3>
-<p style=font-size:18px><B>我的博客</B>是基于github、jekyll、搭建的,当然用Markdown进行写作。博客的模板是继承了<B>https://github.com/lay1010</B>的博客模板,从github上fork而来的,在这基础上进行修饰和改造最终整合成自自己想要的风格.</p>
+<p style=font-size:18px><B>xiaofeiyangyang.github.io</B>是基于github、jekyll、搭建的,当然用Markdown进行写作。博客的模板是继承了<B>https://github.com/lay1010</B>的博客模板,从github上fork而来的,在这基础上进行修饰和改造最终整合成自自己想要的风格.</p>
 
 <h3>关于作者</h3>
 <p style=font-size:18px>这个家伙比较懒,还懒得写个人简历,等想写的时候再补上吧!</p>
