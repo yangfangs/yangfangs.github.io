@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Markdown简明语法
+title: Java开发环境搭建(ubuntu)
 category: Java
 tags: Linux下java环境搭建
 keywords:
