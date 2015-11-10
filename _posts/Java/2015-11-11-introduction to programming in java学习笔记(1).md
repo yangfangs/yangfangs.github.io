@@ -1,3 +1,12 @@
+---
+layout: post
+title: introduction to programming in java学习笔记(1)
+category: Java
+tags: java学习
+keywords:
+description:
+---
+
 #introduction to programming in java (一)
 ##1.1你的第一个程序
 * 第一要搭建一个java的开发环境这个可以参考本博客ubuntu搭建的方法.
