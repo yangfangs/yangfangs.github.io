@@ -23,7 +23,7 @@ if (<boolean expression>) <statements T>
 * if后面判断若为真就执行其后面语句,若为假则执行else后面的语句
 * if和if-else图示
 
-![if and if-else](http://introcs.cs.princeton.edu/java/11cheatsheet/images/if-else.png)
+![if and if-else](/public/img/java/compiling.png)
 
 * **while循环**
 
@@ -33,7 +33,7 @@ while (<boolean expression} { <statements> }
 * 判断while后面()中的语句若为真则执行后面语句,循环执行知道为假结束
 * while图示
 
-![while](http://introcs.cs.princeton.edu/java/11cheatsheet/images/for-while.png)
+![while](/public/img/java/for-while.png)
 
 * **for循环**
 
