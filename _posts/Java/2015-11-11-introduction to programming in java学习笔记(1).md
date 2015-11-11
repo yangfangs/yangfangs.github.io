@@ -86,7 +86,7 @@ double d = Math.sqrt(b*b - 4.0*a*c);
 ```
 ###数据类型的转换
 
-![数据类型转换](/public/img/java/compiling/casts.png)
+![casts](/public/img/java/casts.png)
 
 * **显示类型转换(Explicit type conversion)**
 * 例如:使用`Integer.parseInt`和`Double.parseDouble`直接将字符串数值转换成整型和双精浮点型度型
