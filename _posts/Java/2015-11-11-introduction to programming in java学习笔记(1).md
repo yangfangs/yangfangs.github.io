@@ -1,22 +1,23 @@
 ---
 layout: post
-title: introduction to programming in java学习笔记(1)
+title: introduction to programming in java学习笔记(1)--数据类型
 category: Java
 tags: java学习
 keywords:
 description:
 ---
 
-#introduction to programming in java (一)
+#introduction to programming in java (一)--数据类型
 ##1.1你的第一个程序
 * 第一要搭建一个java的开发环境这个可以参考本博客ubuntu搭建的方法.
 
 ###1.1.1第一个java程序
+![java程序产生的过程](http://introcs.cs.princeton.edu/java/11cheatsheet/images/compiling.png)
 * 一个java程序的的产生需要经过三个步骤.
 * 第一步,打开编辑器编辑(editor)你的代码.保存为例如HelloWord.java.
 * 第二步,进行编译(compiler)结果例如:HelloWord.class.
 * 第三步,执行(excute)你的程序输出结果
-* 例如:
+* 例如:第一个Java程序
 
 ```
 public class HelloWorld{
@@ -30,13 +31,16 @@ public static void main(String[] args){
 }
 ```
 * 终端输入
-```
-javac HelloWorld.java
-java HelloWorld
-```
-* 输出结果:Hello, World
+* `javac HelloWorld.java`
+* `java HelloWorld`
+
+* 输出结果:`Hello, World`
+
+* 结构解析如下
+![HelloWord](http://introcs.cs.princeton.edu/java/11cheatsheet/images/hello.png)
 
 ###1.1.2可传入参数的java程序
+
 ```
 public class UseArgument {
 
@@ -49,15 +53,17 @@ public class UseArgument {
 }
 ```
 * 终端输入
-```
-javac UseArgument.java
-java UseArgument job
-```
-* 显示结果:Hi, job. How are you?
+
+* `javac UseArgument.java`
+* `java UseArgument job`
+
+* 显示结果:`Hi, job. How are you?`
 * 这是一个非常简单的在终端读入参数然后打印出来的java程序.虽然简单但其机制是非常经典的,java编辑器无非作为一个程序输入一个字符串然后将其输入.这对后来写更复杂的机制程序提供了很好基础.
 
 ##1.2内建的数据类型	
 * java内建的数据类型很多常用的有五种:对于整数有整型(int)、对于实数有双精度型(double)、对于真和假的判断有布尔型(boolean)、对于字符有字符型(char)、对于字符串有字符串型(String).基本数据类型有8个分别是 boolean, char, byte, short, int, 1ong, f1oat, double.
+* 五种常用的内建类型
+![数据类型](http://introcs.cs.princeton.edu/java/11cheatsheet/images/built-in.png)
 * **将命令行参数中的字符串转换成基本值**
 * java中有两个方法` Integer.parseIntO`和`Double.parseDouble`
 * 例如:`Integer.parseInt(args[])`
@@ -73,6 +79,7 @@ java UseArgument job
 double d = Math.sqrt(b*b - 4.0*a*c);
 ```
 ###数据类型的转换
+![数据类型转换](http://introcs.cs.princeton.edu/java/11cheatsheet/images/casts.png)
 * **显示类型转换(Explicit type conversion)**
 * 例如:使用`Integer.parseInt`和`Double.parseDouble`直接将字符串数值转换成整型和双精浮点型度型
 * **显示转换(Explicit cast)**
@@ -80,4 +87,5 @@ double d = Math.sqrt(b*b - 4.0*a*c);
 * **数字自动转型(Automatic promotion for numbers)**
 * 对于java来你可以使用任意基本类型数字,当这些数字可能超过设定类型范围时候,java会自动转型为较大范围的类型这就叫做promotion
 
-
+####	参考书籍
+[Introduction to Programming in Java](http://introcs.cs.princeton.edu/java/home/)
