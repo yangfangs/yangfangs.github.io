@@ -84,6 +84,7 @@ public class UseArgument {
 ```
 double d = Math.sqrt(b*b - 4.0*a*c);
 ```
+
 ###数据类型的转换
 
 ![casts](/public/img/java/casts.png)

@@ -30,7 +30,7 @@ if (<boolean expression>) <statements T>
 ```
 while (<boolean expression} { <statements> }
 ```
-* 判断while后面()中的语句若为真则执行后面语句,循环执行知道为假结束
+* 判断while后面()中的语句若为真则执行后面语句,循环执行直到为假结束
 * while图示
 
 ![while](/public/img/java/for-while.png)
@@ -66,13 +66,13 @@ public class Sqrt {
 
 }
 ```
-* 在java中库函数Math.sqrt(),就是用这种方法来求解的,这种方法的根本是Newton's method的计算机语言实现,在这里可以看到很经典的两块内容,一个是控制循环条件中对精度的控制,没有达到精度就一直循环,函数体里面是对根t的求解方程,是由Newton's method方法求解简单理解就是一个二次方程的根的求救,实质是t<sup>2</sup>-c = 0的求解根t的过程
+* 在java中库函数Math.sqrt(),就是用这种方法来求解的,这种方法的根本是Newton's method的计算机语言实现,在这里可以看到很经典的两块内容,一个是控制循环条件中对精度的控制,没有达到精度就一直循环,函数体里面是对根t的求解方程,是由Newton's method方法求解简单理解就是一个二次方程的根的求解,实质是t<sup>2</sup>-c = 0的求解根t的过程
 
 * **其他的一些控制条件和循环**
 * break语句跳出本次循环
 * swith语句选择语句
 * do-while循环
-* 这些都是基本的循环语句也是一门语言必备的循环工具,所以要好后学习利用
+* 这些都是基本的循环语句也是一门语言必备的循环工具
 
 ####参考书籍
 [Introduction to Programming in Java](http://introcs.cs.princeton.edu/java/home/)
