@@ -23,7 +23,7 @@ if (<boolean expression>) <statements T>
 * if后面判断若为真就执行其后面语句,若为假则执行else后面的语句
 * if和if-else图示
 
-![if and if-else](/public/img/java/compiling.png)
+![if and if-else](/public/img/java/if-else.png)
 
 * **while循环**
 
