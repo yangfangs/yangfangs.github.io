@@ -6,7 +6,7 @@ tags: java学习
 keywords:
 description:
 ---
-#introduction to programming in java (二)--数组
+#introduction to programming in java (三)--数组
 ##1.4数组
 * 数组即储存着一类相同类型值的序列这就是数组
 
