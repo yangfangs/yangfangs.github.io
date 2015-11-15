@@ -1,6 +1,6 @@
 ---
 layout: post
-title: introduction to programming in java学习笔记(3)
+title: introduction to programming in java学习笔记(3)--数组
 category: Java
 tags: java学习
 keywords:
@@ -20,17 +20,21 @@ description:
 * 创建一个数组
 * 初始化这个数组的值
 * 例如:
+
 ```
 double[] a;
 a = new double[N];
 for(int i = 0; i < N; i++)
 a[i] = 0.0;
 ```
+
 * 这就是一个简单的三步创建数组,这里需要注意的是你在创建数组时候需要指定数组的大小N
 * 当然这三步在Java中常常合并起来写如下:
+
 ```
 double[] a = new double[N];
 ```
+
 * 在Java中数组的索引是从0开始的指定N大小的数组有N-1个元素
 * 数组的长度可以用`a.length`来获得,所以最后一个元素可以用`a[a.length-1]`来访问
 * 数组在内存中的存储:数组中的元素在内存中是连续排放的,所以你可以很快的访问下标来获取元素内容
@@ -47,10 +51,13 @@ double[] a = new double[N];
 ![array2d](/public/img/java/arrays2d.png)
 
 * 创建二维数组很简单如下:
+
 ```
 double[] [] a = new double [M] [N];
 ```
+
 * 二维数组的初始化可以用下面的方法:
+
 ```
 doubled [] a;
 a = new double[M][N];
@@ -60,7 +67,9 @@ for (int j = 0; j < N; j++)
 a[i][j] = 0.0;
 }
 ```
+
 * 二维数组的输出可以下面的循环来遍历输出:
+
 ```
 for (int i = 0; i < M; i++)
 { // Print the ith row.
@@ -69,16 +78,20 @@ System.out.print(a[i][j] +
 System.out.pri ntln();
 }
 ```
+
 * 在二维数组中我们可以用a[i]来访问数组的第i行但是没有相同的办法来访问一整列:(
 * 矩阵的操作
 * 例如矩阵相加
+
 ```
 double[][] c = new double [N] [N];
 for (int i = 0; i < N; i++)
 for (int j = 0; j < N; j++)
 c[i][j] = a[i][j] + b[i][j];
 ```
+
 * 矩阵相乘
+
 ```
 double[][] c = new double [N] [N];
 for (int i = 0; i < N; i++)
@@ -91,11 +104,14 @@ c[i][j] += a[i][k]*b[k][j];
 }
 }
 ```
+
 ###多维数组
 * 初始化一个多维数组如下:
+
 ```
 doubled [][] a = new double[N] [N] [N];
 ```
+
 
 ####参考书籍
 
