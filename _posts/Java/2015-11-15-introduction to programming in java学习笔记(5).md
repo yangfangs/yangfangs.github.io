@@ -1,12 +1,12 @@
 ---
 layout: post
-title: introduction to programming in java学习笔记(4)--静态方法
+title: introduction to programming in java学习笔记(5)--静态方法
 category: Java
 tags: java学习
 keywords:
 description:
 ---
-#introduction to programming in java (四)--静态方法
+#introduction to programming in java (五)--静态方法
 ##2.1静态方法
 
 * **使用和定义静态方法**
@@ -27,4 +27,3 @@ description:
 ##2.2库和客户端
 
 * **使用其他程序中的静态方法**
-* 
