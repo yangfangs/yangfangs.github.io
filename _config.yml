@@ -1,47 +1,98 @@
-permalink: /:year/:month/:day/:title.html
-paginate: 10
-markdown: redcarpet
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl: 
+url: xiaofeiyangyang.github.io
+date_format: "ordinal"
+title: 博客
+subtitle: "一些心得笔记学习总结"
+description: "博客|一些心得笔记学习总结"
+keywords: 博客, Yang Fang, bioinformatics
+favicon: /favicon.ico
+timezone: Asia/Shanghai
+encoding: "utf-8"
+source_code: https://github.com/xiaofeiyangyang/xiaofeiyangyang.github.io
 
-# 作者信息
-author: 
-  name: Yang fang
-  email: yangfangscu@gmial.com
-  link: http://xiaofeiyangyang.github.io
-  weibo: http://weibo.com/2356685507/profile?topnav=1&wvr=6
-  github: http://github.com/xiaofeiyangyang
-  music: 
-  linkedin: 
+# --------作者-------- #
 
-# 站点信息
-title: 方阳的博客
-description: My personal blog
-url: http://xiaofeiyangyang.github.io
-rss_url: /pages/atom.xml
+author: Yang Fang 
+organization: google.
+organization_url: https://www.google.com
+location: Chengdu, China
+email: yangfangscu@gmail.com
 
-# gavatar头像及Favicon
-gavatar: /public/img/deer3.png
-favicon: /public/img/deer3.png
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
 
-# google analytics 设置
-ga:
-  id: UA-69579941-1 
-  url: xiaofeiyangyang.github.io
+  -
+    href: /categories/
+    label: 分类
 
-# disqus 设置
-disqus:
-  shortname: xiaoxiaoyang
+  -
+    href: /wiki/
+    label: 收藏
 
-# 主题设置，自动激活某个标签
-active: 技术
+  -
+    href: /links/
+    label: 链接
 
-# 首页除了最新文章外显示分类
-cates: 
-  - Optimization
-  - LaTeX
+  -
+    href: /about/
+    label: 关于
 
-# 中文本地化
-locals:
-  tags: 标签
-  about: 关于
-  newest: 最新文章
-  archive: 归档
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 8
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+gems:
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+# ---------------- #
+#      Socials     #
+# ---------------- #
+duoshuo_username: 
+github_username: xiaofeiyangyang
+douban_username: false
+facebook_username: false
+weibo_username: yangfang
+zhihu_username: false
+twitter_username: false
+changyan: false
+
+# ---------------- #
+#      Datas       #
+# ---------------- #
+skill_software_keywords: [Java, R, Python]
+skill_mobile_app_keywords: [null]
+skill_windows_keywords: [null]
+popular_repos: ['chinese-copywriting-guidelines','android-reverse-engineering', 'csdncommenter', 'xiaofeiyangyang.github.io', 'vim-markdown-toc']
+contribute_repos: ['sparanoid/chinese-copywriting-guidelines', 'waylife/RentCrawer']
+
