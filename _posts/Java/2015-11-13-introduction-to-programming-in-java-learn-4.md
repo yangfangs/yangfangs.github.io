@@ -2,6 +2,7 @@
 layout: post
 title: introduction to programming in java学习笔记(4)--输入和输出
 category: Java
+tags:
 keywords: Java 学习
 description:
 ---

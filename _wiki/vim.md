@@ -6,7 +6,7 @@ description: 个人最常用的 Vim 常用操作。
 keywords: Vim
 ---
 
-### 移动
+###移动
 
 **以字（符）为单位**
 

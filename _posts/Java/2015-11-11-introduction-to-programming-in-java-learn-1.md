@@ -2,6 +2,7 @@
 layout: post
 title: introduction to programming in java学习笔记(1)--数据类型
 category: Java
+tags:
 keywords:Java学习,数据类型
 description:关于java的了解
 ---

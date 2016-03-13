@@ -2,6 +2,7 @@
 layout: post
 title: Blat本地安装使用以及结果查看
 categories: bioinformatics
+tags:
 description: 本地blat的用法
 keywords: 生物信息学, blat
 ---
