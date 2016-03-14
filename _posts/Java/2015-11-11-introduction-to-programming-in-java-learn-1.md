@@ -6,8 +6,6 @@ description: 关于java的了解
 keywords: Java学习,数据类型
 ---
 
-# introduction to programming in java (一)--数据类型
-
 ## 1.1你的第一个程序
 
 * 第一要搭建一个java的开发环境这个可以参考本博客[ubuntu搭建的方法](/_posts/java/2015-11-11-introduction-to-programming-in-java-learn-1.md).
