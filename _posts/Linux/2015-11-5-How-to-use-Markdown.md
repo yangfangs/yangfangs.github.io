@@ -16,9 +16,9 @@ keywords: Markdown, Linux
 
 ## 基本符号
 
-* * , -, + 三个符号效果都是一样的,这三个符号被称为 Markdown 符号
+* *,-,+ 三个符号效果都是一样的,这三个符号被称为 Markdown 符号
 * 空白行表示另起一个段落
-*  \` 表示 inline 代码,tab是用来标记代码段当然 \``` 更好用,分别对应html的 code , pre 标签\
+*  \` 表示 inline 代码, tab 是用来标记代码段当然 \``` 更好用,分别对应 html 的 code , pre 标签 \
   
 ***
 
@@ -57,10 +57,12 @@ keywords: Markdown, Linux
 * 例如:
 * \#一级标题
 * 显示效果:
+
 # 一级标题
 
 * \##二级标题
 * 显示效果:
+
 ## 二级标题
 
 ***
@@ -89,9 +91,10 @@ keywords: Markdown, Linux
 ***
 
 * 例如
+
 \| 姓名 \| 年龄 \|
 
-\|---- \|---- \|
+\|------\|------\|
 
 \| 小明 \| 25  \|
 
@@ -105,9 +108,9 @@ keywords: Markdown, Linux
 
 ## 链接
 
-* 直接可以用\[锚文本](url"可选的title")
-* 引用先定义[ref_name]:url,然后需要写入url的地方,使用[锚文本][ref_name],通常的ref_name一般用数字表示,这样显得专业
-* 图片插入使用\!\[alt text](url)来实现
+* 直接可以用 \[锚文本](url"可选的title")
+* 引用先定义 [ref_name]:url ,然后需要写入url的地方,使用 [锚文本][ref_name] ,通常的 ref_name 一般用数字表示,这样显得专业
+* 图片插入使用 \!\[alt text](url) 来实现
 
 ***
 
@@ -119,7 +122,7 @@ keywords: Markdown, Linux
 
 ## 特殊符号
 
-* 用\来转义,表示文本中的Markdown符号
+* 用 \ 来转义,表示文本中的Markdown符号
 * 可以在文本中直接使用html标签,但是要注意使用的时候前后要加上空行
 * 文本前后各加一个符号,表示斜体
 
@@ -127,7 +130,7 @@ keywords: Markdown, Linux
 
 ## 删除线
 
-* 需要对删除的文本前后用~~来加删除线
+* 需要对删除的文本前后用 ~~ 来加删除线
 * 例如:
 * \~\~ 这是要删除的内容 \~\~
 * 显示效果
@@ -150,7 +153,7 @@ print("Hello World")
 print("Hello World")
 ```
 
->GitHub发布公告从 2016 年 5 月 1 日起，GitHub Pages 只专属用 kramdown 作为 Markdown 引擎了这与 Redcarpet 解析的稍微有不同具体不同参考[kramdown Syntax](http://kramdown.gettalong.org/syntax.html)
+>GitHub发布公告从 2016 年 5 月 1 日起，GitHub Pages 只专属用 kramdown 作为 Markdown 引擎了这与 Redcarpet 解析的稍微有不同,具体不同参考[kramdown Syntax](http://kramdown.gettalong.org/syntax.html)
 
 ### 相关参考:
 
