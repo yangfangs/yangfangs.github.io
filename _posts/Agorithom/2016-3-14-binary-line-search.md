@@ -84,4 +84,4 @@ public class Binarychop {
 
 ### 相关参考:
 
-* [data structure && algorithm in java](http://rineshpk.weebly.com/uploads/1/8/2/0/1820991/data_structures_and_algorithms_in_javatqw_darksiderg.pdf)
+* [data structure & algorithm in java](http://rineshpk.weebly.com/uploads/1/8/2/0/1820991/data_structures_and_algorithms_in_javatqw_darksiderg.pdf)
