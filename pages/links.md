@@ -8,7 +8,15 @@ menu: 链接
 permalink: /links/
 ---
 
-> God made relatives. Thank God we can choose our friends.
+
+***
+
+> 请允许我向这些高手学习，链接一些高手的博客。
+> 都是高手，排名不分先后。
+
+***
 
 * [牛牛龙](http://yulongniu.bionutshell.org/)
-* [牛牛龙新浪博客](http://blog.sina.com.cn/niuyulongr)
+* [糗世界](http://blog.qiubio.com:8080/)
+* [Heng Li's blog](https://lh3.github.io/)
+* [当然我在扯淡](http://www.yinwang.org/)
