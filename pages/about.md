@@ -10,7 +10,7 @@ permalink: /about/
 
 生物信息学。
 
-喜欢倒腾点新东西。
+分享学习中遇到和解决的问题。
 
 ## 坚信
 
@@ -23,7 +23,7 @@ permalink: /about/
 * LinkedIn：[@null](null)
 * 博客：[{{ site.title }}]({{ site.url }})
 * 微博: [@盛夏之寒冰](http://weibo.com/2356685507/profile?topnav=1&wvr=6&is_all=1)
-* 知乎: [@null](null)
+* 邮箱: [@yangfangscu@gmail.com](null)
 * 豆瓣: [@null](null)
 
 ## Skill Keywords
