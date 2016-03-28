@@ -6,7 +6,7 @@ description: 安装PyCharm
 keywords: PyCharm,install
 ---
 
-　　在 Fedora 下安装一个非常强大的 Python IDE------->PyCharm-Community版本,有一个非常方面的方法,就分三部,记录一下方便以后再装
+　　在 Fedora 下安装一个非常强大的 Python IDE------->PyCharm-Community版本,有一个非常方面的方法,三步就可以安装上。记录一下方便以后再装
 
 ### 在源文件中添加pycharm.repo,
 
