@@ -52,6 +52,7 @@ p <- ggplot(mydata,aes(x=month,y=count,colour=species,group=species,fill=species
 p
 ```
 
+![plot_broken_line1](/images/posts/R/plot_broken_line1.png)
 
 ### 3.各种添加和修改
 
