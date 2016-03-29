@@ -7,8 +7,10 @@ keywords: ggplot2,R
 ---
 
 　　用[ggplot2](https://github.com/hadley/ggplot2)在[R](https://www.r-project.org/)中画图,能够画出非常漂亮的统计图,由于 ggplot2 的作者 Hadley Wickham 在开发 ggplot2 的时候借鉴了 Photoshop 的图层的思想,使得利用ggplot2来画图,非常方便的维护和修改,画出来的图只需要修改每个图层的数值就行了,而不需求全面修改。
-　　Hadley Wickham 在 R 社区可是一个大神级别的人物,一个 ggplot2 包可以说让 R 火的不行,什么还不知道 Hadley Wickham 长什么样?没关系[戳我](https://avatars3.githubusercontent.com/u/4196?v=3&s=400)你就认识他了。
-　　学习 ggplot2 可不是一件太容易的事情,就这个 package 的[书](http://www.amazon.com/dp/0387981403/ref=cm_sw_su_dp?tag=ggplot2-20)就有 200 页,先学习下折线图,不过各种图原理都差不多,记录下画折线图的流程,方便下次再画类似的图。
+
+  Hadley Wickham 在 R 社区可是一个大神级别的人物,一个 ggplot2 包可以说让 R 火的不行,什么还不知道 Hadley Wickham 长什么样?没关系[戳我](https://avatars3.githubusercontent.com/u/4196?v=3&s=400)你就认识他了。
+
+  学习 ggplot2 可不是一件太容易的事情,就这个 package 的[书](http://www.amazon.com/dp/0387981403/ref=cm_sw_su_dp?tag=ggplot2-20)就有 200 页,先学习下折线图,不过各种图原理都差不多,记录下画折线图的流程,方便下次再画类似的图。
 
 ### 1.数据准备
 
