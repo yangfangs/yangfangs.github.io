@@ -23,8 +23,8 @@ permalink: /about/
 * LinkedIn：[@null](null)
 * 博客：[{{ site.title }}]({{ site.url }})
 * 微博: [@盛夏之寒冰](http://weibo.com/2356685507/profile?topnav=1&wvr=6&is_all=1)
-* 邮箱: [@yangfangscu@gmail.com](null)
-* 豆瓣: [@null](null)
+* 推特: [@xiaoxiaoyangs](https://twitter.com/xiaoxiaoyangs?edit=true) 
+* 邮箱: [yangfangscu@gmail.com](null)
 
 ## Skill Keywords
 
