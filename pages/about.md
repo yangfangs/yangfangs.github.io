@@ -20,11 +20,11 @@ permalink: /about/
 ## 联系
 
 * GitHub：[@xiaofeiyangyang](https://github.com/xiaofeiyangyang)
-* LinkedIn：[@null](null)
+* LinkedIn：[@搭建中](null)
 * 博客：[{{ site.title }}]({{ site.url }})
 * 微博: [@盛夏之寒冰](http://weibo.com/2356685507/profile?topnav=1&wvr=6&is_all=1)
 * 推特: [@xiaoxiaoyangs](https://twitter.com/xiaoxiaoyangs?edit=true) 
-* 邮箱: [yangfangscu@gmail.com](null)
+* 邮箱: yangfangscu@gmail.com
 
 ## Skill Keywords
 
