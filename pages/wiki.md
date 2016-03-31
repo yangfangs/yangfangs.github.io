@@ -8,7 +8,7 @@ menu: 收藏
 permalink: /wiki/
 ---
 
-> 收藏一些有用的喽
+> 就像一本字典一样,收藏一些非常有用,需要查询的东西
 
 <ul class="listing">
 {% for wiki in site.wiki %}

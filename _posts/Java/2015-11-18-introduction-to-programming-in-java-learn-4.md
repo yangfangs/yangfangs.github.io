@@ -33,7 +33,7 @@ public class RandomSeq {
 
 ## 三个标准库
 
-* **标准输入暑促**
+* **标准输入输出**
 * `StdIn` 和 `StdOut` 类是一个可以实现标准输入抽象到标准输出抽象的一个完整的过程.正如你可以在执行程序时候通过标准输出随时打印你的程序值,当然你也可以在任何时候通过输入流来读取你的值
 * 下载到你程序所在的文件夹使用 [StdIn.java](http://introcs.cs.princeton.edu/java/15inout/StdIn.java.html) 和 [StdOut.java](http://introcs.cs.princeton.edu/java/15inout/StdOut.java.html)
 * **标准画图**
