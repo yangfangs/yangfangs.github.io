@@ -61,7 +61,7 @@ source ~/.bash_profile
 
 ```
 
-### 4.修改 .bashrc 文件
+### 4.修改 `.bashrc` 文件
 
 
 * 打开 ` .bashrc` 编辑
