@@ -6,7 +6,6 @@ description: 本地blat的安装
 keywords: 生物信息学, blat
 ---
 
-## Blat
 
   在进行 NGS 结果分析的时候，很多时候我们向快速查看一下从测序公司得的测序文件，这里有一个比较好的查看工具就是 [Blat](https://genome.ucsc.edu/cgi-bin/hgBlat?org=human) 当然你可以使用在线版本的快速查看，有时候在线版本并没有涵盖你分析物种的基因组，就不得不使用本地版本，这里介绍下本地版本 blat 的使用。
 
