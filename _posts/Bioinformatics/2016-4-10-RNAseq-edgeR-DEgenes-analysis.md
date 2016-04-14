@@ -16,8 +16,8 @@ keywords: 生物信息学, edgeR, RNA-seq
 ```r
 
 # try http:// if https:// URLs are not supported
-source("https://bioconductor.org/biocLite.R")
-biocLite("edgeR")
+>source("https://bioconductor.org/biocLite.R")
+>biocLite("edgeR")
 
 ```
 
@@ -27,11 +27,11 @@ biocLite("edgeR")
 * count 结果如下:
 
 ```r
-library(edgeR)
-mydata <- read.table("counts.txt", header = TRUE, quote = '\t',skip =1)
-sampleNames <- c("CA_1","CA_2","CA_3","CC_1","CC_2","CC_3")
-names(mydata)[7:12] <- sampleNames
-head(mydata)
+>library(edgeR)
+>mydata <- read.table("counts.txt", header = TRUE, quote = '\t',skip =1)
+>sampleNames <- c("CA_1","CA_2","CA_3","CC_1","CC_2","CC_3")
+>names(mydata)[7:12] <- sampleNames
+>head(mydata)
 
     Geneid         Chr Start  End Strand Length CA_1 CA_2 CA_3 CC_1 CC_2 CC_3
 1 gene1314 NW_139421.1  1257 1745      +    489    0    0    0    0    0    0
@@ -45,9 +45,9 @@ head(mydata)
 * 在这里我们只是需要 Geneid 和后 6 列的样本的 count 信息来组成矩阵，所以要处理下
 
 ```r
-countMatrix <- as.matrix(mydata[7:12])
-rownames(countMatrix) <-mydata$Geneid
-head(countMatrix)
+>countMatrix <- as.matrix(mydata[7:12])
+>rownames(countMatrix) <-mydata$Geneid
+>head(countMatrix)
 
          CA_1 CA_2 CA_3 CC_1 CC_2 CC_3
 gene1314    0    0    0    0    0    0
@@ -68,9 +68,10 @@ gene1319    0    0    0    0    0    0
 
 ```r
 
-group <- factor(c("CA","CA","CA","CC","CC","CC"))
-y <- DGEList(counts = countMatrix, group = group)
-y
+>group <- factor(c("CA","CA","CA","CC","CC","CC"))
+>y <- DGEList(counts = countMatrix, group = group)
+>y
+
 An object of class "DGEList"
 $counts
          CA_1 CA_2 CA_3 CC_1 CC_2 CC_3
@@ -101,9 +102,9 @@ CC_3  CC_3  2025063            1
 
 ```r
 
-keep <- rowSums(cpm(y)>1) >= 2
-y <- y[keep, , keep.lib.sizes=FALSE]
-y
+>keep <- rowSums(cpm(y)>1) >= 2
+>y <- y[keep, , keep.lib.sizes=FALSE]
+>y
 
 An object of class "DGEList"
 $counts
@@ -133,7 +134,8 @@ CC_3  CC_3  2024786            1
 
 ```r
 
-y <- calcNormFactors(y)
+>y <- calcNormFactors(y)
+>y
 
 An object of class "DGEList"
 $counts
@@ -162,10 +164,10 @@ CC_3  CC_3  2024786    1.0668754
 
 ```r
 
-subGroup <- factor(substring(colnames(countMatrix),4,4))
-design <- model.matrix(~ subGroup+group)
-rownames(design) <- colnames(y)
-design
+>subGroup <- factor(substring(colnames(countMatrix),4,4))
+>design <- model.matrix(~ subGroup+group)
+>rownames(design) <- colnames(y)
+>design
 
      (Intercept) subGroup2 subGroup3 groupCC
 CA_1           1         0         0       0
@@ -188,13 +190,13 @@ attr(,"contrasts")$group
 # 评估离散度
 
 ```r
-y <- estimateDisp(y, design, robust=TRUE)
-y$common.dispersion
+>y <- estimateDisp(y, design, robust=TRUE)
+>y$common.dispersion
 
 [1] 0.02683622
 
 #plot
-plotBCV(y)
+>plotBCV(y)
 
 ```
 
