@@ -28,13 +28,13 @@ keywords: 生物信息学, sleu, RNA-seq, kallisto
 * abundance.tsv 结果如下:
 
 ```r
-target_id	length	eff_length	est_counts	tpm
-ENST00000415118	    8	5	0	0
-ENST00000448914	    13	10	0	0
-ENST00000434970 	9	6	0	0
-ENST00000390577	    37	10.0625	0	0
-ENST00000437320 	19	16	0	0
-ENST00000450276 	17	14	0	0
+        target_id length eff_length est_counts tpm
+1 ENST00000415118      8     5.0000          0   0
+2 ENST00000448914     13    10.0000          0   0
+3 ENST00000434970      9     6.0000          0   0
+4 ENST00000390577     37    10.0625          0   0
+5 ENST00000437320     19    16.0000          0   0
+6 ENST00000450276     17    14.0000          0   0
 ```
 
 * 下载Sleuth测试数据进行测试,放在 `～/sample/kallisto/test/`下
@@ -93,7 +93,7 @@ summarizing bootstraps
 >plot_group_density(so)
 
 ```
-![plot_goroup_density](/images/posts/bioformatics/plot_group_density.png)
+![plot_goroup_density](/images/posts/bioinformatics/plot_group_density.png)
 
 
 
@@ -107,7 +107,7 @@ summarizing bootstraps
 
 ```
 
-![plot_MA](/images/posts/bioformatics/plot_MA.png)
+![plot_MA](/images/posts/bioinformatics/plot_MA.png)
 
 
 
@@ -121,7 +121,7 @@ summarizing bootstraps
 
 ```
 
-![plot_mean_var](/images/posts/bioformatics/plot_mean_var.png)
+![plot_mean_var](/images/posts/bioinformatics/plot_mean_var.png)
 
 
 # PCA分析
@@ -131,7 +131,7 @@ summarizing bootstraps
 
 ```
 
-![plot_pca](/images/posts/bioformatics/plot_pca.png)
+![plot_pca](/images/posts/bioinformatics/plot_pca.png)
 
 
 # heatmap(top50)　图
@@ -142,7 +142,7 @@ summarizing bootstraps
 
 ```
 
-![plot_heatmap](/images/posts/bioformatics/plot_heatmap.png)
+![plot_heatmap](/images/posts/bioinformatics/plot_heatmap.png)
 
 
 # 火山图
@@ -152,5 +152,5 @@ summarizing bootstraps
 
 ```
 
-![plot_volcano](/images/posts/bioformatics/plot_volcano.png)
+![plot_volcano](/images/posts/bioinformatics/plot_volcano.png)
 
