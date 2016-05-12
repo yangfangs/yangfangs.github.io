@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Python　读写文件操作
+title: Python 读写文件操作
 categories: Python
 description: Python read 和　write
 keywords: write, read, Python
 ---
 
-　　Python 对文件进行读和写操作还是挺方便的．
+　　Python 对文件进行读和写操作还是挺方便的,可以使用 open 加模式进行操作
 
 # 1.使用 open 和 file　直接进行读和写
 
@@ -79,8 +79,18 @@ all_data = open("test.txt").read( )
 | ab+  | 	以二进制格式打开一个文件用于追加。如果该文件已存在，文件指针将会放在文件的结尾。如果该文件不存在，创建新文件用于读写。                                     |
 
 
+*　打开一个 flie 后这个文件是一个对象，可以对这个文件对象属性进行操作
+* flie 文件的所有属性
 
-# 4. python 目录操作
+| 属性　            |                               描述　       　                  |
+| ---------------- | -----------------------------------------------------------  |
+| file.closed      |  返回true如果文件已被关闭，否则返回false。                         |
+| file.mode	       |   返回被打开文件的访问模式。                                      |
+| file.name	       |   返回文件的名称。                                              |
+| file.softspace  |   如果用print输出后，必须跟一个空格符，则返回false。否则返回true。     |
+
+
+# 4. Python 目录操作
 
 * 以下基因 os 模块操作 使用前先 `import os`
 
