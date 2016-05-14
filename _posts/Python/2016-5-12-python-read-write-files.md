@@ -6,27 +6,31 @@ description: Python read 和　write
 keywords: write, read, Python
 ---
 
-　　Python 对文件进行读和写操作还是挺方便的,可以使用 open 加模式进行操作
+　　Python 对文件进行读和写操作还是挺方便的,可以使用 `open` 加 `模式` 进行操作,用起来还是很自由的，可以一次全部读入内容存入一个字符串(小数据量好用),也可以逐行读取．
 
 # 1.使用 open 和 file　直接进行读和写
 
 * 读文件
+
 ```python
+
 txt = open("test.txt")
 line = txt.readlines()
 for lines in line:  
     print lines
 
-
 ```
 
 * 或者直接使用
 
+
 ```python
+
 for line in open("test.txt"):  
     print line
 
 ```
+
 * 写入文件
 
 ```python
