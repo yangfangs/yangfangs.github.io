@@ -18,7 +18,7 @@ wc -l file.fastq
 
 ```
 
-* 如果是压缩文件可以使用命令
+* 如果是 `zip` 压缩文件可以使用命令 `gunzip`
 
 ```bash
 gunzip -c file.gz | wc -l
