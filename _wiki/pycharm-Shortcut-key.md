@@ -204,7 +204,7 @@ keywords: pycharm 快捷键
 
 | 快捷键 | 功能 |
 |-------- | ----- |
-| Alt | + | #[0-9] |
+| Alt + #[0-9]|  打开相应编号的工具窗口  |
 | Ctrl + Alt + Y | 同步 |
 | Ctrl + Shift + F12 | 最大化编辑开关 |
 | Alt + Shift + F | 添加到最喜欢 |
