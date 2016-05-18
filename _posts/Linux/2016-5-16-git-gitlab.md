@@ -1,6 +1,6 @@
 ---
 layout: post
-title: gitlab　创建与 git 的使用
+title: gitlab 创建与 git 的使用
 categories: Linux
 description: 使用git
 keywords: gitlab, git
@@ -98,7 +98,7 @@ git push -u origin master
 
 
 
-# git基本使用
+# 3.git基本使用
 
 ## 本地提交代码到远程仓库
 
