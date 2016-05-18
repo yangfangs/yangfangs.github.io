@@ -206,4 +206,39 @@ git push origin dev
 
 ```
 
+# 4. `gitignore` 中加入文件为什么没有被忽略？
+
+* 没有被忽略的原因是你在把文件加入 `gitignore` 之前，git 仓库就已经跟踪(track)这个文件了，所以在这只有加入这个文件是不起作用的，需要再git版本控制中移除对这个文件的track就行了
+
+* 解决办法一:直接移除对这个文件的跟踪
+
+```bash
+git rm --cached [filename(s)]
+
+```
+
+* 解决办法二:直接再git本地仓库删除这个文件
+
+```bash
+git rm [filename(s)]
+
+```
+
+* 解决办法三；让git不去检查这个文件的变化
+
+```bash
+
+git update-index --assume-unchanged [filename(s)]
+```
+
+
+
+
+
+
+
+
+
+
+
 
