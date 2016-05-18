@@ -223,6 +223,43 @@ git push origin :dev
 
 ```
 
+## 添加tag方法
+
+* 添加一个tag在本地
+
+```bash
+
+git tag -a v0.0.3 -m 'version 0.0.3'
+```
+
+* push到远程仓库
+
+```bash
+git push origin --tags
+
+```
+
+##　忽略上传文件方法
+
+* 再根目录建立一个隐藏文件 `.gitignore`加入想要忽略的文件或目录
+
+```bash
+mkdir .gitignore
+vim .gitignore
+```
+* python　开发常忽略文件
+
+```
+#git ingore files use python developed
+# Python:
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+```
+
 
 
 # 4. `gitignore` 中加入文件为什么没有被忽略？
