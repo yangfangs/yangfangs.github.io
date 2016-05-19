@@ -239,6 +239,30 @@ git push origin --tags
 
 ```
 
+## 删除tag方法
+
+* 查看tag
+
+
+```bash
+
+git tag
+```
+
+* 删除本地tag
+
+```bash
+git tag -d tagname
+
+```
+
+* 删除远程仓库tag
+
+```bash
+git push origin :refs/tags/tagname
+
+```
+
 
 ## 忽略上传文件方法
 
