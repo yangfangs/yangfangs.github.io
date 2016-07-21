@@ -286,6 +286,14 @@ dist
 build
 ```
 
+## 修改本地对应远程仓库地址
+
+
+```bash
+git remote set-url origin　[newurl]
+
+```
+
 
 
 # 4. `gitignore` 中加入文件为什么没有被忽略？
