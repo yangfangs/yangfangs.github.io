@@ -292,6 +292,8 @@ build
 ```bash
 git remote set-url origin　[newurl]
 
+git push -u origin master
+
 ```
 
 
