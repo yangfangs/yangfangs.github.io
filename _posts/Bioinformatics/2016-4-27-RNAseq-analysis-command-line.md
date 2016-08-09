@@ -76,6 +76,15 @@ sed's/GeneID/Gene_ID/g' file.gff > file2.gff
 
 ```
 
+# 提取某一列
+
+* 在这里提取以tab分割分隔符数据的第一列
+
+```bash
+awk -F '\t' '{print $1}' filename.txt > outputfilename.txt
+
+```
+
 
 # 条件筛选
 
