@@ -9,7 +9,7 @@ subtitle: "学会记录和分享"
 description: "小小羊|学会记录和分享"
 keywords: 博客, Yang Fang, bioinformatics
 favicon: /favicon.ico
-timezone: Asia/Shanghai
+timezone: Asia/Chengdu
 encoding: "utf-8"
 source_code: https://github.com/xiaofeiyangyang/xiaofeiyangyang.github.io
 
@@ -98,6 +98,6 @@ disqus_username: xiaoxiaoyang
 skill_software_keywords: [Java, R, Python]
 skill_mobile_app_keywords: [null]
 skill_windows_keywords: [null]
-popular_repos: ['chinese-copywriting-guidelines','android-reverse-engineering', 'csdncommenter', 'xiaofeiyangyang.github.io', 'vim-markdown-toc']
+popular_repos: ['physpetools']
 contribute_repos: [null]
 
