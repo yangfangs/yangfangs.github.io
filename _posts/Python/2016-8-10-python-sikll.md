@@ -11,7 +11,7 @@ keywords: Development, Skill, Python
 
 # 生成一个独一无二的时间文件夹
 
-```Python
+```python
 import time
 timeformat = '%Y%m%d%H%M%S'
 timeinfo = str(time.strftime(timeformat))
@@ -23,7 +23,7 @@ timeinfo
 
 例如 `a = ['a','b','','c']`　去除其中的空字符串
 
-```Python
+```python
 def removeEmptyString(inputlist):
     temp = []
     for line in inputlist:
@@ -34,7 +34,7 @@ def removeEmptyString(inputlist):
 
 # 定位当前脚本的绝对路径
 
-```Python
+```python
 import os
 def getlocalpath():
     relpath = os.path.split(os.path.realpath(__file__))[0]
@@ -43,7 +43,7 @@ def getlocalpath():
 
 # 判断目录若不存在则创建
 
-```Python
+```python
 import os
 if not os.path.exists(dirname):
     os.makedirs(dirname)
