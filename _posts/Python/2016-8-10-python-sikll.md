@@ -48,4 +48,35 @@ import os
 if not os.path.exists(dirname):
     os.makedirs(dirname)
 ```
+# list 取交集，并集和差集
+
+* 例如 `a = ['a','b','c']`，`b = ['b','c','d']`
+
+* 交集:
+
+```python
+print list(set(a).intersection(set(b)))
+
+#或者
+isec = [val for val in a if val in b]
+print isec
+
+```
+
+* 并集
+
+```python
+print list(set(a).union(set(b)))
+```
+
+* 差集
+
+```python
+print list(set(b).difference(set(a))) # b-a
+
+```
+
+
+
+
 
