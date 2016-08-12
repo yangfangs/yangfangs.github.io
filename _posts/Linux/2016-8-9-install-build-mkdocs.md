@@ -84,6 +84,19 @@ pages:
 - About: about.md
 ```
 
+## 修改配置文件增加多级文档
+
+```
+site_name:myproject
+pages:
+- Home: index.md
+- Install: install.md
+- Documents:
+    - Usage: usage.md
+    - Tutorial: tutorial.md
+```
+
+
 ## 更改文档模板
 
 修改配置文件`mkdocs.yml`中的`theme`值. [更多模板](http://www.mkdocs.org/user-guide/styling-your-docs/) 
@@ -96,6 +109,14 @@ pages:
 theme: readthedocs
 ```
 
+## 更新文档后上传
+
+一行命令搞定
+
+```bash
+mkdocs gh-deploy --clean
+
+```
 
 # 参考：
 
