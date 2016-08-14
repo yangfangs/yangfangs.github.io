@@ -21,7 +21,7 @@ timeinfo
 
 # 去除list中的空字符串
 
-例如 `a = ['a','b','','c']`　去除其中的空字符串
+* 例如 `a = ['a','b','','c']`　去除其中的空字符串
 
 ```python
 def removeEmptyString(inputlist):
@@ -31,6 +31,14 @@ def removeEmptyString(inputlist):
             temp.append(line)
     return temp
 ```
+
+* 或者使用一行迭代, 更简洁, 速度更快
+
+```python
+b = [var for var in a if var]
+print(b)
+```
+
 
 # 定位当前脚本的绝对路径
 
