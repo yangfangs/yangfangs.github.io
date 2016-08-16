@@ -86,6 +86,19 @@ print list(set(b).difference(set(a))) # b-a
 ```
 
 
+# 把一个list分割成固定长度子list
 
+例如　`list1 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]` 分割成固定长度为3的子list
+
+```python
+def splite_list(splist, s):
+    """splite a list to sub list contain s"""
+    return [splist[i:i + s] for i in range(len(splist)) if i % s == 0]
+
+#test
+list1 = range(10)
+splite_list(list1,2)
+[[0, 1], [2, 3], [4, 5], [6, 7], [8, 9]]
+```
 
 
