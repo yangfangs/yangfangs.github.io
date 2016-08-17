@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RGB　和 16进制颜色(HEX)　相互转换
+title: RGB和16进制颜色(HEX)相互转换
 categories: Python
 description: RGB和HEX颜色转换
 keywords: RGB, HEX, covert
@@ -12,9 +12,9 @@ keywords: RGB, HEX, covert
 #  理论部分 
 
 
-1. HEX 转换 RGB　算法
+## HEX 转换 RGB　算法
 
-* 从 HEX 表示颜色转换成　RGB 方法表示颜色，是`HEX的第一位数乘以16加上第二位数`举个例子:转换颜色为 `#1722DF`的HEX值到RGB值　
+* 从 HEX 表示颜色转换成　RGB 方法表示颜色，是`HEX的第一位数乘以16加上第二位数`举个例子:转换颜色为 `#1722DF`的 HEX 值到 RGB 值　
 
 ```
 #1722DF ----------> rgb:
@@ -29,7 +29,7 @@ DF --------------> b: b的值就是: 16 * 13 + 15 = 223
 * 所以 `#1722DF`　转换为RGB的表示的值为 `(23,34,223)`
 
 
-2. RGB 转换成 HEX　的算法
+## RGB 转换成 HEX　的算法
 
 
 * 从 RGB 转换成 HEX　表示颜色是　HEX　到 RGB　值的一个逆过程 `对RGB的值分别除以16商加上余数就是HEX值了`其中0对应的为00例如：转换(0,223,55)到HEX值
@@ -45,7 +45,7 @@ DF --------------> b: b的值就是: 16 * 13 + 15 = 223
 ```
 
 
-3. 16进制16个数超过10对应关系:
+## 16进制16个数超过10对应关系:
 
 
 * `0~9` 依次为对应二进制的 `0~9`
@@ -61,7 +61,7 @@ DF --------------> b: b的值就是: 16 * 13 + 15 = 223
 16 ------------> F
 ```
 
-# Python 实现RGB和HEX相互转换：
+# Python 实现 RGB 和 HEX 相互转换：
 
 ```python
 def convert(value):
