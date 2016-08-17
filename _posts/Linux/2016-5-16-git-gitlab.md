@@ -6,7 +6,7 @@ description: 使用git
 keywords: gitlab, git
 ---
 
-  [git](https://git-scm.com/) 可以这么理解，就相当于本地的一个软件，这个软件是干什么用的呢？就是在本地对代码进行分布式管理，而 [github](https://github.com/)　和 [gitlab](https://gitlab.com/),就是一个远程的仓库，就像云盘一样，保证当你电脑熄火了，你的代码依然存在（远程仓库上）, github 与　gitlab 的区别，对我而言比较有价值的是，gitlab　提供了免费的私人库的创建，这已经很爽了．
+　　[git](https://git-scm.com/) 可以这么理解，就相当于本地的一个软件，这个软件是干什么用的呢？就是在本地对代码进行分布式管理，而 [github](https://github.com/)　和 [gitlab](https://gitlab.com/),就是一个远程的仓库，就像云盘一样，保证当你电脑熄火了，你的代码依然存在（远程仓库上）, github 与　gitlab 的区别，对我而言比较有价值的是，gitlab　提供了免费的私人库的创建，这已经很爽了．
 
 
 

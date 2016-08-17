@@ -6,7 +6,7 @@ description: DESeq2使用
 keywords: 生物信息学, DESeq2, RNA-seq
 ---
 
-  记录下使用 [DESeq2 package](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)　的使用方法。DESeq2　也是基于分析　RNA-seq counts 数据来进行差异表达基因的分析包
+　　记录下使用 [DESeq2 package](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)　的使用方法。DESeq2　也是基于分析　RNA-seq counts 数据来进行差异表达基因的分析包
 
 # DESeq2 包的安装
 

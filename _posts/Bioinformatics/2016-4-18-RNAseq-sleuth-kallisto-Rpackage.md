@@ -6,7 +6,7 @@ description: sleuth的使用
 keywords: 生物信息学, sleu, RNA-seq, kallisto
 ---
 
-  使用 [kallisto](https://pachterlab.github.io/kallisto/)　可以对原始 RNA-seq 数据的 Reads　结果进行分析，统计每一基因的 counts　估计值、 TPM　值等对寻找差异表达基因有用的值， kallisto 是基于　pseudoalignment 的算法，能够快速分析二代测序结果，而其结果的分析与解读工具又可以使用相应的 R 包来完成，就是 [Sleuth](http://pachterlab.github.io/sleuth/),不过这个包还再开发完善中，并未发表相关的文章，鉴于是针对　Kallisto 的下游分析工具，可以先来尝试一下
+　　使用 [kallisto](https://pachterlab.github.io/kallisto/)　可以对原始 RNA-seq 数据的 Reads　结果进行分析，统计每一基因的 counts　估计值、 TPM　值等对寻找差异表达基因有用的值， kallisto 是基于　pseudoalignment 的算法，能够快速分析二代测序结果，而其结果的分析与解读工具又可以使用相应的 R 包来完成，就是 [Sleuth](http://pachterlab.github.io/sleuth/),不过这个包还再开发完善中，并未发表相关的文章，鉴于是针对　Kallisto 的下游分析工具，可以先来尝试一下
   
 # Sleuth 包的安装
 
