@@ -101,4 +101,23 @@ splite_list(list1,2)
 [[0, 1], [2, 3], [4, 5], [6, 7], [8, 9]]
 ```
 
+# 在Python中调用Linux下的export
 
+* Python中改变Linux 的环境变量不能简单的使用 `os.system()` 或者 `subprocess.call()`来完成．
+* 例如:下列方法无法完成
+
+```python
+import os
+import subprocess
+os.system("export OMP_NUM_THREADS=8")
+subprocess.call("export OMP_NUM_THREADS=8",shell=True)
+
+```
+
+* 可以使用`os.environ`来导入环境变量
+
+```python
+import os
+os.environ["OMP_NUM_THREADS"] = "8"
+
+```
