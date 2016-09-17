@@ -63,7 +63,7 @@ running checkdocs
 
 1. 修改文档中的语法错误
 
-2. 安装个　[Pygments](https://pypi.python.org/pypi/Pygments) 检测下代码块语法有没又错误
+2. 安装　[Pygments](https://pypi.python.org/pypi/Pygments) 检测下代码块语法有没有错误
 
 ```bash
 $pip install Pygments
