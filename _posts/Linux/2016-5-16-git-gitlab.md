@@ -15,7 +15,7 @@ keywords: gitlab, git
 # 1.注册账户
 
 
-* 在 [github](https://github.com/) 官网上先注册一个账户 
+* 在 [gitlab](https://gitlab.com/) 官网上先注册一个账户 
 
 
 # 2.本地配置git
