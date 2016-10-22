@@ -232,5 +232,12 @@ for details.
 
 # 使用Rstudio创建R包
 
-* 一个专门可是化的IDE使创建R包变得更加的简便　[Rstudio]() 就是这么一款IDE
+* 一个专门可是化的IDE使创建R包变得更加的简便　[Rstudio](https://www.rstudio.com/) 就是这么一款IDE
+
+## 创建R包
+
+*依次点击 File--->New Project--->New Directory--->R Package
+
+![Create R Package](/images/posts/R/create_R_package.png))
+
 
