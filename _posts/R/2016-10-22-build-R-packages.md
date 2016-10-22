@@ -250,3 +250,17 @@ for details.
 ## 创建R包及测试一键搞定
 
 ![Create R Package 3](/images/posts/R/create_R_package3.png))
+
+## check　R 包
+
+![Create R Package 4](/images/posts/R/create_R_package4.png))
+
+
+
+
+#　一些比较详细的介绍
+
+* 这里只不过提供两种快速创建R包的方法，当然一个高质量R包的创建，所用的大量的时间是花费在写好一个高质量的R包文档和example上，而不是在包的创建上。下面是比较好的创建包手册:
+
+
+1. [R Packages](http://r-pkgs.had.co.nz/)
