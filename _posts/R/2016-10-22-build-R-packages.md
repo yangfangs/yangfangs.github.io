@@ -1,14 +1,15 @@
 ---
 layout: post
-title: "Hello World"为例创建R包
+title: Hello World　为例创建R包流程
 categories: R
-description: R语言如何创建包
-keywords: packages,R
+description: R　包的创建流程
+keywords: packages ,R
 ---
 
 　　这里给出了两种非常简单的方法来创建R包，Fedora 24 开发版环境下测试。
 
-# 直接Linux 命令行下创建R包
+
+# 直接Linux 命令行下创建R包　　
 
 ## 写一个R脚本
 
