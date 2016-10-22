@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello World　为例创建R包流程
+title: Hello World为例创建R包流程
 categories: R
 description: R　包的创建流程
 keywords: packages ,R
@@ -43,6 +43,7 @@ character(0)
 
 ## 目录结构说明
 
+```
 HelloWorld (包的名字)
 |
 |--DESCRIPTION (描述文件，包括包名、版本号、标题、描述、依赖关系等)
@@ -54,6 +55,7 @@ HelloWorld (包的名字)
    |--HelloWorld.Rd (函数的说明文件，latex语法，用来生成PDF文档)
    |--HelloWorld-package.Rd (包的说明文件，可以删除)
 |--Read-and-delete-me 说明文件,已经说的很清楚了，读一读就把我删除了吧
+```
 
 ## 编辑DESCRIPTION文件
 
@@ -233,33 +235,33 @@ for details.
 
 # 使用Rstudio创建R包
 
-* 一个专门可视化的IDE使创建R包变得更加的简便　[Rstudio](https://www.rstudio.com/) 就是这么一款IDE
+* 一个专门可视化的IDE使创建R包变得更加的简便[Rstudio](https://www.rstudio.com/)就是这么一款IDE
 
 ## 创建R包
 
-* 依次点击 File--->New Project--->New Directory--->R Package
+* 依次点击 `File--->New Project--->New Directory--->R Package`
 
-![Create R Package](/images/posts/R/create_R_package.png))
+![Create R Package](/images/posts/R/create_R_package.png)
 
 
 
 ## 修改R包基本骨架里的各种参数
 
-![Create R Package 2](/images/posts/R/create_R_package2.png))
+![Create R Package 2](/images/posts/R/create_R_package2.png)
 
 
 ## 创建R包及测试一键搞定
 
-![Create R Package 3](/images/posts/R/create_R_package3.png))
+![Create R Package 3](/images/posts/R/create_R_package3.png)
 
 ## check　R 包
 
-![Create R Package 4](/images/posts/R/create_R_package4.png))
+![Create R Package 4](/images/posts/R/create_R_package4.png)
 
 
 
 
-#　一些比较详细的介绍
+# 一些比较详细的介绍
 
 * 这里只不过提供两种快速创建R包的方法，当然一个高质量R包的创建，所用的大量的时间是花费在写好一个高质量的R包文档和example上，而不是在包的创建上。下面是比较好的创建包手册:
 
