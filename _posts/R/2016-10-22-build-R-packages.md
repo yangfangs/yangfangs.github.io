@@ -9,7 +9,7 @@ keywords: packages ,R
 　　这里给出了两种非常简单的方法来创建R包，一种是在bash下直接创建R包，一种方法是通过[Rstudio](https://www.rstudio.com/)来创建R包，下面都是基于Fedora 24 开发版环境下测试。
 
 
-# 直接Linux 命令行下创建R包　　
+# 1.直接在Linux命令行下创建R包　　
 
 ## 写一个R脚本
 
@@ -29,7 +29,7 @@ HelloWorld <- function(name){
 # 启动R
 $ R
 
-#清空所以内载入变量
+#清空所有内存中载入的变量
 > rm(list=ls())
 #check下
 > ls()
@@ -166,7 +166,7 @@ $ R
 
 ## check通过后发布
 
-* 只有通过check的检查没有错误的包才能通过CRAN发布
+* 只有通过check的检查没有错误的包才能通过CRAN的审核发布
 
 ```bash
 $ R CMD check HelloWorld_1.0.tar.gz 
@@ -233,9 +233,9 @@ for details.
 ```
 
 
-# 使用Rstudio创建R包
+# 2.使用Rstudio创建R包
 
-* 一个专门可视化的IDE使创建R包变得更加的简便[Rstudio](https://www.rstudio.com/)就是这么一款IDE
+* 一个专门可视化的IDE使创建R包变得更加的简便,[Rstudio](https://www.rstudio.com/)就是这么一款IDE
 
 ## 创建R包
 
