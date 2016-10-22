@@ -6,7 +6,7 @@ description: R　包的创建流程
 keywords: packages ,R
 ---
 
-　　这里给出了两种非常简单的方法来创建R包，一种是在bash下直接创建R包，一种方法是通过[Rstudio](https://www.rstudio.com/)来创建R包，下面都是基于Fedora 24 开发版环境下测试。
+　　这里给出了两种非常简单的方法来创建R包，一种方法是在bash下直接创建R包，另一种方法是通过[Rstudio](https://www.rstudio.com/)来创建R包，下面都是基于Fedora 24 开发版环境下测试。
 
 
 # 1.直接在Linux命令行下创建R包　　
