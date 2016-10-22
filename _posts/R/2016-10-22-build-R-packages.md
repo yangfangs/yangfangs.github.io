@@ -236,8 +236,17 @@ for details.
 
 ## 创建R包
 
-*依次点击 File--->New Project--->New Directory--->R Package
+* 依次点击 File--->New Project--->New Directory--->R Package
 
 ![Create R Package](/images/posts/R/create_R_package.png))
 
 
+
+## 修改R包基本骨架里的各种参数
+
+![Create R Package 2](/images/posts/R/create_R_package2.png))
+
+
+## 创建R包及测试一键搞定
+
+![Create R Package 3](/images/posts/R/create_R_package3.png))
