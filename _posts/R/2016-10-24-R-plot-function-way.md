@@ -13,7 +13,7 @@ keywords: plot function ,R
 
 * sigmoid公式:  
 
-![sigmid](http://www.forkosh.com/mathtex.cgi? \Large \frac1{1+e^{-x}})
+![sigmoid](http://www.forkosh.com/mathtex.cgi? \Large \frac1{1+e^{-x}})
 
 * sin公式:  
 
@@ -27,7 +27,7 @@ keywords: plot function ,R
 sigmoid <- function(x) 1/(1+exp(-x))
 
 #画sigmid图像
-curve(sigmid,-10,10)
+curve(sigmoid,-10,10)
 
 #画sin(x)数图像
 curve(sin,-10,10)
@@ -48,11 +48,11 @@ curve(sin,-10,10)
 library(ggplot2)
 
 # 定义函数
-sigmid <- function(x) 1/(1+exp(-x))
+sigmoid <- function(x) 1/(1+exp(-x))
 
 # 创建数据点
 x<-seq(-5, 5, by=0.01)
-y<-sigmid(x)
+y<-sigmoid(x)
 df<-data.frame(x, y)
 
 # 用ggplot2来画图
