@@ -11,15 +11,16 @@ keywords: plot function ,R
 
 #　分别画sigmoid公式和sin公式
 
-* sigmoid公式:
+* sigmoid公式:  
 
 ![sigmid](http://www.forkosh.com/mathtex.cgi? \Large \frac1{1+e^{-x}})
 
-* sin公式:
+* sin公式:  
+
 ![sin](http://www.forkosh.com/mathtex.cgi? \Large sin(x))
 
 
-# 用 `curve()` 画函数图像
+# 用`curve()`画函数图像
 
 ```r
 #定义公式
