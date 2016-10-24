@@ -6,7 +6,7 @@ description: R如何画一个函数图像
 keywords: plot function ,R
 ---
 
-　　有时候我们想知道一个函数的图像是什么样子的，用R语言很好实现，这里分别用两种方法来实现一种方法是通过 [graphics](https://stat.ethz.ch/R-manual/R-devel/library/graphics/html/00Index.html)中的
+　　有时候我们想知道一个函数的图像是什么样子的，用R语言很好实现，这里分别用两种方法来实现一种方法是通过 [graphics](https://stat.ethz.ch/R-manual/R-devel/library/graphics/html/00Index.html)包中的
 `curve()`函数来实现，一种方法是用[ggplot2](https://cran.r-project.org/web/packages/ggplot2/index.html)来实现。
 
 #　分别画sigmoid公式和sin公式
@@ -20,7 +20,7 @@ keywords: plot function ,R
 ![sin](http://www.forkosh.com/mathtex.cgi? \Large sin(x))
 
 
-# 用`curve()`画函数图像
+# 用curve()画函数图像
 
 ```r
 #定义公式
@@ -40,7 +40,7 @@ curve(sin,-10,10)
 ## sin图像
 ![sin](/images/posts/R/sin_curve.png)
 
-# 用 `ggplot2` 绘制函数图像
+# 用ggplot2绘制函数图像
 
 ## 绘制sigmoid函数
 
