@@ -155,8 +155,57 @@ print("Hello World")
 
 >GitHub发布公告从 2016 年 5 月 1 日起，GitHub Pages 只专属用 kramdown 作为 Markdown 引擎了这与 Redcarpet 解析的稍微有不同,具体不同参考[kramdown Syntax](http://kramdown.gettalong.org/syntax.html)
 
+# markdown文档插入公式
+
+## 1.使用Google Chart的服务器
+
+* 由于国内限制不太好使
+
+```
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= 在此插入Latex公式">
+```
+
+例如:
+
+```
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}">
+```
+
+显示如下:  
+
+![function](http://chart.googleapis.com/chart?cht=tx&chl=\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a})
+
+
+## 2.使用使用forkosh服务器
+
+* 这个国内网速还行。
+
+```
+<img src="http://www.forkosh.com/mathtex.cgi? 在此处插入Latex公式">
+```
+
+
+例如:
+
+```
+<img src="http://www.forkosh.com/mathtex.cgi? \Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}">
+```
+
+显示如下:  
+
+![function](http://www.forkosh.com/mathtex.cgi? \Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a})
+
+
+* forkosh提供了一个能帮助你快速写出Latex公式的网站:[mathtextutorial](http://www.forkosh.com/mathtextutorial.html)。
+
+
+
+
+
+
 ### 相关参考:
 
 * [Markdown 语法说明 (简体中文版)](http://www.appinn.com/markdown/)
 * [Markdown 是什么和我为什么用 Markdown](http://www.fallhunter.com/p/10605)
 * [Kramdown 语法](http://kramdown.gettalong.org/syntax.html)
+* [Markdown中插入数学公式的方法](http://blog.csdn.net/xiahouzuoxin/article/details/26478179)
