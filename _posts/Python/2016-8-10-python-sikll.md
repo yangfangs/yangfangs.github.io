@@ -121,3 +121,14 @@ import os
 os.environ["OMP_NUM_THREADS"] = "8"
 
 ```
+
+# 合并List
+
+* 例如　a = [[a,b],[a,c],[a,d]]
+
+```python
+a = [[1,2],[3,4],[1,4]]
+b = [x for j in a for x in j]
+print b
+[1, 2, 3, 4, 1, 4]
+```
