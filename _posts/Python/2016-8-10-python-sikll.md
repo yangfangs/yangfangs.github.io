@@ -132,3 +132,14 @@ b = [x for j in a for x in j]
 print b
 [1, 2, 3, 4, 1, 4]
 ```
+
+# List去除重复
+
+* 例如　a = [[a,b],[a,c],[a,d]]
+
+```python
+a = [1,2,3,3,4,1]
+b = list(set(a))
+print b
+[1, 2, 3, 4]
+```
