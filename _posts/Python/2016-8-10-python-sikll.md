@@ -143,3 +143,19 @@ b = list(set(a))
 print b
 [1, 2, 3, 4]
 ```
+
+# 临时文件创建
+
+* python标准库``tempfile``提供了一个临时文件储存的地方，脚本结束自动销毁
+
+```python
+import tempfile
+temp = tempfile.TemporaryFile() # 实例化
+temp.write('create a temp file')　#　写入
+temp.seek(0)　# 回到起点位置
+print temp.read()
+temp.close() #　手动关闭下
+```
+
+
+* 2016-12-14 更新
