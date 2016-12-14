@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: Linux　会用到命令积累
+title: Linux会用到命令积累
 categories: linux
 description: linux　命令
 keywords: linux, fedora

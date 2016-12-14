@@ -124,9 +124,9 @@ class Graph
 
 ```
 
-##run
+## run
 
-```
+```java
 0 1 2 3 4 5 
 true true true true true true false 
 [1]
