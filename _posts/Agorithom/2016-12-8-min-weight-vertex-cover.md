@@ -22,7 +22,7 @@ keywords: 算法，图，顶点，权重，最小值
 
 > [Bar-Yehuda R, Even S. A linear-time approximation algorithm for the weighted vertex cover problem[J]. Journal of Algorithms, 1981, 2(2): 198-203.][1]
 
-##Min-Vertex-Cover算法如下:
+## Min-Vertex-Cover算法如下:
 
 ```
 In Put G(V.E), w.
@@ -36,7 +36,7 @@ In Put G(V.E), w.
 
 * 其中C为Vertex cover，G为图，w为每个点的权重，E'为图的一个拷贝，(u,v)为边。
 
-##java实现
+## java实现
 
 ```java
 import java.util.ArrayList;
@@ -158,13 +158,14 @@ class Graph
 }
 
 ```
+
 ## 输出结果
 
-```
+```java
 [1, 2, 3, 4, 5]
 ```
 
-参考:
+# 参考:
 
 [引用1][1]
 
