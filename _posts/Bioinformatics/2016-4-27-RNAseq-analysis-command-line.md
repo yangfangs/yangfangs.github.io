@@ -141,10 +141,15 @@ sed '/^$/d' file.txt
 ```
 
 
+# 使用awk为每一行行头添加数据
+
+```bash
+awk '{print "w "$0}' file.txt
+
+```
 
 
-
-
+* 2016.12.15更新
 
 
 
