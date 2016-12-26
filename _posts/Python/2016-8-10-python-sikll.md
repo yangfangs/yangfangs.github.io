@@ -157,5 +157,27 @@ print temp.read()
 temp.close() #　手动关闭下
 ```
 
+# 读取文件跳过首行可以用islice
 
-* 2016-12-14 更新
+* 有时侯处理文本想跳过首行，也就是header，可以使用islice完成
+
+```bash
+$ cat file.txt
+name ages
+nice 20
+pretty 18
+```
+
+```python
+from itertools import islice
+
+with open('file.txt') as f:
+    for i in islice(f, 1, None):
+        print
+#print
+nice 20
+pretty 18
+```
+
+
+* 2016-12-26 更新
