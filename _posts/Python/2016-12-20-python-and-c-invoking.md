@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Python
-categories: Python和C语言的交互
+title: Python和C语言的交互
+categories: Python
 description: python C语言
 keywords: python, C语言，交互, ctypes
 ---
