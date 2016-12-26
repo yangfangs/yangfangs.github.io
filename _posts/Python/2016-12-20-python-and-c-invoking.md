@@ -13,7 +13,7 @@ keywords: python, C语言，交互, ctypes
 
 # 通过`ctypes`直接调用C的标准动态库
 
-1. 加载C标准动态库方法
+## 1.加载C标准动态库方法
 
 ```python
 from ctypes import cdll
@@ -25,7 +25,7 @@ libc = cdll.LoadLibrary('libc.dylib')
 libc = cdll.msvcrt
 ````
 
-2. 调用C标准库函数
+## 2.调用C标准库函数
 ```python
 # C标准库printf函数
 libc.printf("%s",'cprintf')
@@ -38,7 +38,7 @@ print libc.atoi("1234")
 ```
 
 
-3. ctypes 数据类型和 C数据类型 对照表
+## 3.ctypes 数据类型和 C数据类型 对照表
 
 
 | ctypes type  | C type                                 | Python type                |
@@ -63,7 +63,7 @@ print libc.atoi("1234")
 | c_wchar_p    | wchar_t * (NUL terminated)             | unicode or None            |
 | c_void_p     | void *                                 | int/long or None           |
 
-4. 创建ctypes类型
+## 4.创建ctypes类型
 
 * 使用`.value`取值和修改值
 
@@ -80,7 +80,7 @@ x.value = 3
 print x.value
 ```
 
-5. 函数返回类型
+## 5.函数返回类型
 
 * 默认返回C int类型，可以使用restype设置返回类型
 
@@ -93,7 +93,7 @@ print strchr("hello", ord("e"))
 ello
 ```
 
-6. 定义数组
+## 6.定义数组
 
 ```
 intarr = c_int * 10
@@ -109,7 +109,7 @@ a[0]
 
 * 下面是直接使用Python的ctypes来直接调用C编译后的函数
 
-1. 首先写个C函数`libtest.c`
+# 1.首先写个C函数`libtest.c`
 
 ```c
 int addnum(int num1, int num2)
@@ -118,14 +118,14 @@ int addnum(int num1, int num2)
 }
 ```
 
-2. 编译动态链接库
+# 2.编译动态链接库
 
 ```bash
 gcc -shared libtest.c -o libtest.so
 
 ```
 
-3. 调用
+# 3.调用
 
 ```python
 from ctypes import *
@@ -165,8 +165,8 @@ print libtest.addnum(1, 2)
 [ctypes][3]
 
 
-[1] https://docs.python.org/dev/extending/extending.html
+[1]: https://docs.python.org/dev/extending/extending.html
 
-[2] https://www.ibm.com/developerworks/cn/linux/l-pythc/
+[2]: https://www.ibm.com/developerworks/cn/linux/l-pythc/
 
-[3] https://docs.python.org/3/library/ctypes.html
+[3]: https://docs.python.org/3/library/ctypes.html

@@ -173,4 +173,4 @@ class Graph
 
 
 [1]:http://www.cs.technion.ac.il/~reuven/PDF/vc_lp.pdf
-[2]: http://www.cs.technion.ac.il/~reuven/PDF/vc_lr.pdf
+[2]:http://www.cs.technion.ac.il/~reuven/PDF/vc_lr.pdf

@@ -9,7 +9,7 @@ keywords: python, scipy, distance
 　　计算两两向量间的距离或者相似度，python和R都有相当成熟的库可以用，这里学习一下python库[scipy][1]中关于距离的计算方法。
 
 
-#　安装库
+# 安装库
 
 ```bash
 pip install numpy
@@ -53,4 +53,4 @@ while (copy_node):
 
 
 
-[1] http://www.scipy.org/
+[1]: http://www.scipy.org/
