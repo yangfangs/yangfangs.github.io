@@ -63,6 +63,8 @@ $ du -sh *
 ```bash
 dnf install dnf-plugin-system-upgrade
 dnf system-upgrade download --releasever=25
+# 重启
+dnf system-upgrade reboot
 ```
 
 ***
