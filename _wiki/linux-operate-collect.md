@@ -8,7 +8,7 @@ keywords: linux, fedora
 
 Linux 下常用命令积累
 
-# linux 发行版本查看
+# Linux 发行版本查看
 
 * 查看发行版本
 
@@ -56,10 +56,17 @@ $ du -sh *
 * 无论哪种方法都要带个`-h`转换成人类可读的模式(K,MB,GB等)。
 
 
+# 升级Fedora发行版本的方法
 
+* 以Fedora 24升级到 Fedora 25为例:
+
+```bash
+dnf install dnf-plugin-system-upgrade
+dnf system-upgrade download --releasever=25
+```
 
 ***
 
-**2016-12-26更新**
+**2017-1-9更新**
 
 ***
