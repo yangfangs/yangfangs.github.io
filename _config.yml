@@ -95,9 +95,9 @@ disqus_username: xiaoxiaoyang
 # ---------------- #
 #      Datas       #
 # ---------------- #
-skill_software_keywords: [Java, R, Python]
-#skill_mobile_app_keywords: [null]
-#skill_windows_keywords: [null]
+skill_language_keywords: [Java, R, Python]
+skill_filed_keywords: [phylogenetic tree, NGS, graph algorithm, bio software develop]
+skill_interested_keywords: [algorithm, statistics, machine learning, deep learning]
 popular_repos: ['physpetools']
 #contribute_repos: [null]
 
