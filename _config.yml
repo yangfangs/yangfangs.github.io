@@ -99,5 +99,5 @@ skill_language_keywords: [Java, R, Python]
 skill_field_keywords: [phylogenetic tree, NGS, graph algorithm, bio software develop]
 skill_interested_keywords: [algorithm, statistics, machine learning, deep learning]
 popular_repos: ['physpetools']
-contribute_repos: ['heinz','tablemaker']
+contribute_repos: ['ls-cwi/heinz','leekgroup/tablemaker']
 
