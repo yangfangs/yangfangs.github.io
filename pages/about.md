@@ -60,7 +60,7 @@ permalink: /about/
 
 #### 感兴趣的方向
 <div class="btn-inline">
-    {% for keyword in site.interested_keywords %}
+    {% for keyword in site.skill_interested_keywords %}
     <button class="btn btn-outline" type="button">{{ keyword }}</button>
     {% endfor %}
 </div>
