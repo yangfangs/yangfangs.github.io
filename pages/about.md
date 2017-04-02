@@ -17,32 +17,33 @@ permalink: /about/
 
 ***
 
-* GitHub：[@yangfangs](https://github.com/yangfangs)
+* **GitHub**：[@yangfangs](https://github.com/yangfangs)
 * 这是一个我的远程仓库，用来存储和发布我写的代码以及软件的地方。
 
 ***
 
-* 博客：[{{ site.title }}]({{ site.url }})
+* **博客**：[{{ site.title }}]({{ site.url }})
 * 一个用来积累经验和分享知识的东西。
 
 ***
 
-* 微博: [@盛夏之寒冰](http://weibo.com/2356685507/profile?topnav=1&wvr=6&is_all=1)
-* 一个完全沦为我看八卦，分享搞笑图片以及搞笑小视频的地方，不用来宣传学术，远离学术，自我消遣的地方。
+* **微博**: [@盛夏之寒冰](http://weibo.com/2356685507/profile?topnav=1&wvr=6&is_all=1)
+* 一个完全沦为看八卦和分享搞笑图片以及搞笑小视频的地方，不用来宣传学术，自我娱乐的地方。
 
 ***
 
-* 推特: [@xiaoxiaoyangs](https://twitter.com/xiaoxiaoyangs?edit=true)
+* **推特**: [@xiaoxiaoyangs](https://twitter.com/xiaoxiaoyangs?edit=true)
 * 一个可以看世界的工具，与时俱进，不能只活在自我的世界里。
 
 ***
 
-* 邮箱: yangfangscu@gmail.com
+* **邮箱**: yangfangscu@gmail.com
 * 一个取代了纸质信件通信的高级产物－电子邮件，通过这个东西我们可以互相交流。
 
 ***
 
-##　研究的领域和方向
+
+## 研究的领域和方向
 
 #### 生信研究中常用语言
 <div class="btn-inline">
