@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl: 
-url: xiaofeiyangyang.github.io
+url: yangfangs.github.io
 date_format: "ordinal"
 title: 小小羊
 subtitle: "学会记录和分享"
@@ -11,13 +11,13 @@ keywords: 博客, Yang Fang, bioinformatics
 favicon: /favicon.ico
 timezone: Asia/Chengdu
 encoding: "utf-8"
-source_code: https://github.com/xiaofeiyangyang/xiaofeiyangyang.github.io
+source_code: https://github.com/yangfangs/yangfangs.github.io
 
 # --------作者-------- #
 
 author: Yang Fang 
-organization: google.
-organization_url: https://www.google.com
+organization: scu.
+organization_url: http://www.scu.edu.cn/
 location: Chengdu, China
 email: yangfangscu@gmail.com
 
@@ -79,7 +79,7 @@ collections:
 #      Socials     #
 # ---------------- #
 
-github_username: xiaofeiyangyang
+github_username: yangfangs
 douban_username: false
 facebook_username: false
 weibo_username: yangfang
@@ -96,8 +96,8 @@ disqus_username: xiaoxiaoyang
 #      Datas       #
 # ---------------- #
 skill_software_keywords: [Java, R, Python]
-skill_mobile_app_keywords: [null]
-skill_windows_keywords: [null]
+#skill_mobile_app_keywords: [null]
+#skill_windows_keywords: [null]
 popular_repos: ['physpetools']
-contribute_repos: [null]
+#contribute_repos: [null]
 
