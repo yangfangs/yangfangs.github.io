@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl: 
-url: yangfangs.github.io
+url: https://yangfangs.github.io/
 date_format: "ordinal"
 title: 小小羊
 subtitle: "学会记录和分享"

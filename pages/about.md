@@ -22,7 +22,7 @@ permalink: /about/
 
 ***
 
-* **博客**：[＠小小羊](yangfangs.github.io)
+* **博客**：[{{ site.title }}]({{ site.url }})
 * 一个用来积累经验和分享知识的东西。
 
 ***
@@ -37,7 +37,7 @@ permalink: /about/
 
 ***
 
-* **邮箱**: [yangfangscu@gmail.com](yangfangscu@gmail.com)
+* **邮箱**: [yangfangscu@gmail.com]({{ site.email }})
 * 一个取代了纸质信件通信的高级产物－电子邮件，通过这个东西我们可以互相交流。
 
 ***
