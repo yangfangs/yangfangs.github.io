@@ -37,7 +37,7 @@ permalink: /about/
 
 ***
 
-* **邮箱**: <a href=mailto:"yangfangscu@gmail.com">yangfangscu@gmail.com</a>
+* **邮箱**: <a href="mailto:yangfangscu@gmail.com">yangfangscu@gmail.com</a>
 * 一个取代了纸质信件通信的高级产物－电子邮件，通过这个东西我们可以互相交流。
 
 ***
