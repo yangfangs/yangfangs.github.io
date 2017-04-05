@@ -6,7 +6,7 @@ description: DESeq2使用
 keywords: 生物信息学, DESeq2, RNA-seq
 ---
 
-　　记录下使用 [DESeq2 package](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)　的使用方法。DESeq2　也是基于分析　RNA-seq counts 数据来进行差异表达基因的分析包
+　　记录下使用 [DESeq2 package](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)　的使用方法。DESeq2　也是基于分析　RNA-seq counts 数据来进行差异表达基因的分析包。
 
 # DESeq2 包的安装
 
@@ -22,7 +22,7 @@ keywords: 生物信息学, DESeq2, RNA-seq
 
 # 数据导入
 
-* 导入count 矩阵，导入数据的方式很多这里直接导入 count 矩阵
+* 导入count 矩阵，导入数据的方式很多这里直接导入 count 矩阵,关于原始的 count　数据是什么样子可以在我另一篇博客[使用 R 语言 edgeR　包对RNA-seq测序结果下游分析](http://yangfangs.github.io/2016/04/10/RNAseq-edgeR-DEgenes-analysis/)中查看。
 * count 结果如下:
 
 ```r
