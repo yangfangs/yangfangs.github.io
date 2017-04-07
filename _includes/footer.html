@@ -1,36 +1,50 @@
-    <footer class="container">
-        <div class="site-footer" role="contentinfo">
-            <div class="copyright left mobile-block">
-                    © 2015
-                    <span title="{{ site.author}}">{{ site.author }}</span>
-                    <a href="javascript:window.scrollTo(0,0)" class="right mobile-visible">TOP</a>
-            </div>
-
-            <ul class="site-footer-links right mobile-hidden">
-                <li>
-                    <a href="javascript:window.scrollTo(0,0)" >TOP</a>
-                </li>
-            </ul>
-            <a href="{{ site.source_code }}" target="_blank" aria-label="view source code">
-                <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
-            </a>
-            <ul class="site-footer-links mobile-hidden">
-                {% for nav in site.navs %}
-                <li>
-                    <a href="{{ nav.href }}" title="{{ nav.label }}" target="{{ nav.target | default: _self }}">{{ nav.label }}</a>
-                </li>
-                {% endfor %}
-                <li><a href="{{ site.subscribe_rss }}"><span class="octicon octicon-rss" style="color:orange;"></span></a></li>
-            </ul>
+<footer class="container">
+    <div class="site-footer" role="contentinfo">
+        <div class="copyright left mobile-block">
+            © 2017
+            <span title="{{ site.author}}">{{ site.author }}.</span>
 
         </div>
-    </footer>
-    <!-- / footer -->
-    <script src="/assets/vendor/share.js/dist/js/share.min.js"></script>
-    <script src="/assets/js/geopattern.js"></script>
-    <script src="/assets/js/prism.js"></script>
-    <link rel="stylesheet" href="/assets/css/globals/prism.css">
-    <script>
+<!--加入不蒜子统计-->
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_uv">
+  Total <span id="busuanzi_value_site_uv"></span> views and</span>
+            <span id="busuanzi_container_page_pv">Page <span id="busuanzi_value_page_pv"></span> reads</span>
+<!--加入不蒜子统计-->
+            <a href="javascript:window.scrollTo(0,0)" class="right mobile-visible">TOP</a>
+
+        <ul class="site-footer-links right mobile-hidden">
+            <li>
+                <a href="javascript:window.scrollTo(0,0)">TOP</a>
+            </li>
+        </ul>
+        <a href="{{ site.source_code }}" target="_blank" aria-label="view source code">
+            <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+
+        </a>
+        <ul class="site-footer-links mobile-hidden">
+            {% for nav in site.navs %}
+            <li>
+                <a href="{{ nav.href }}" title="{{ nav.label }}" target="{{ nav.target | default: _self }}">{{ nav.label
+                    }}</a>
+            </li>
+            {% endfor %}
+
+            <li><a href="{{ site.subscribe_rss }}"><span class="octicon octicon-rss" style="color:orange;"></span>
+
+            </a>
+            </li>
+
+        </ul>
+
+    </div>
+</footer>
+<!-- / footer -->
+<script src="/assets/vendor/share.js/dist/js/share.min.js"></script>
+<script src="/assets/js/geopattern.js"></script>
+<script src="/assets/js/prism.js"></script>
+<link rel="stylesheet" href="/assets/css/globals/prism.css">
+<script>
       jQuery(document).ready(function($) {
         // geopattern
         $('.geopattern').each(function(){
@@ -38,10 +52,12 @@
         });
        // hljs.initHighlightingOnLoad();
       });
-    </script>
-    {% if site.google.analytics_id %}
-    <div style="display:none">
-      <script>
+
+
+</script>
+{% if site.google.analytics_id %}
+<div style="display:none">
+    <script>
         (function () {
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -54,8 +70,10 @@
           var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
           document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F3894395ec060e3e4d0d9397bb5c7dff9' type='text/javascript'%3E%3C/script%3E"));
         })();
-      </script>
-    </div>
-    {% endif %}
+
+
+    </script>
+</div>
+{% endif %}
 </body>
 </html>
