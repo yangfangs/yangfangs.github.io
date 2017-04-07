@@ -3,7 +3,7 @@ layout: page
 title: Links
 description: 没有链接的博客空荡荡
 keywords: 友情链接
-comments: true
+comments: false
 menu: 链接
 permalink: /links/
 ---

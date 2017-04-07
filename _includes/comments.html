@@ -1,3 +1,4 @@
+{% if site.disqus_username and page.comments != false %}
 <div id="disqus_thread"></div>
 <script>
 
@@ -18,7 +19,7 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
+{% endif %}
 <!--{% if site.duoshuo_username and page.comments != false %}
 <div class="ds-thread" data-thread-key="{{ page.url }}" data-title="{{ page.title }}" data-url="{{ site.url }}{{ page.url }}"></div>
 <script type="text/javascript">
