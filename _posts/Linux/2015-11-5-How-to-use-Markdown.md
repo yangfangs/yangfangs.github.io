@@ -178,20 +178,20 @@ print("Hello World")
 
 ## 2.使用使用forkosh服务器
 
-* 这个国内网速还行。
-
-```
-<img src="http://www.forkosh.com/mathtex.cgi? 在此处插入Latex公式">
-```
+~~* 这个国内网速还行。~~
 
 
-例如:
+~~\<img src="http://www.forkosh.com/mathtex.cgi? 在此处插入Latex公式">~~
 
-```
-<img src="http://www.forkosh.com/mathtex.cgi? \Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}">
-```
 
-显示如下:  
+
+~~例如:~~
+
+
+~~\<img src="http://www.forkosh.com/mathtex.cgi? \Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}">~~
+
+
+~~显示如下:~~
 
 ![function](http://www.forkosh.com/mathtex.cgi? \Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a})
 
@@ -199,6 +199,40 @@ print("Hello World")
 * forkosh提供了一个能帮助你快速写出Latex公式的网站:[mathtextutorial](http://www.forkosh.com/mathtextutorial.html)。
 
 
+**waring:这种方法已经不能使用了**
+
+## 3.使用使用MathJax引擎
+
+* [MathJax](https://www.mathjax.org/)引擎还是相当好用的,首先需要在Markdown中引入一段javascript代码然后就可以书写了
+
+* 引入代码如下:
+
+```
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+```
+
+书写使用``$$公式$$``的方式来出入公式例如：
+
+```
+$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
+```
+
+显示如下:
+
+$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
+
+# Markdown插入邮箱链接
+
+* Markdown是可以直接解析html的，所以可以直接在markdown中写入html来实现插入邮箱链接，通过这种方式插入链接可以实现点击发邮件。
+
+例如:
+
+```html
+<a href="mailto:testmail@gmail.com">testmail@gmail.com</a>
+```
+
+效果如下：
+<a href="mailto:teastmail@gmail.com">testmail@gmail.com</a>
 
 
 
@@ -208,4 +242,6 @@ print("Hello World")
 * [Markdown 语法说明 (简体中文版)](http://www.appinn.com/markdown/)
 * [Markdown 是什么和我为什么用 Markdown](http://www.fallhunter.com/p/10605)
 * [Kramdown 语法](http://kramdown.gettalong.org/syntax.html)
-* [Markdown中插入数学公式的方法](http://blog.csdn.net/xiahouzuoxin/article/details/26478179)
+* [Markdown 中插入数学公式的方法](http://blog.csdn.net/xiahouzuoxin/article/details/26478179)
+* [MathJax](https://www.mathjax.org/)
+* [mathtextutorial 一个学习LaTeX的好地方](http://www.forkosh.com/mathtextutorial.html)

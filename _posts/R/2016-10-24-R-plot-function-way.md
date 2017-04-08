@@ -13,11 +13,11 @@ keywords: plot function ,R
 
 * sigmoid公式:  
 
-![sigmoid](http://www.forkosh.com/mathtex.cgi? \Large \frac1{1+e^{-x}})
+$$\frac1{1+e^{-x}}$$
 
 * sin公式:  
 
-![sin](http://www.forkosh.com/mathtex.cgi? \Large sin(x))
+$$sin(x)$$
 
 
 # 用curve()画函数图像

@@ -43,23 +43,23 @@ permalink: /about/
 ***
 
 
-## 研究的领域和方向
+## The field and direction of research
 
-#### 生信研究中常用语言
+#### Language skill
 <div class="btn-inline">
     {% for keyword in site.skill_language_keywords %}
     <button class="btn btn-outline" type="button">{{ keyword }}</button>
     {% endfor %}
 </div>
 
-#### 涉及的领域
+#### Research field
 <div class="btn-inline">
     {% for keyword in site.skill_field_keywords %}
     <button class="btn btn-outline" type="button">{{ keyword }}</button>
     {% endfor %}
 </div>
 
-#### 感兴趣的方向
+#### Interested research direction
 <div class="btn-inline">
     {% for keyword in site.skill_interested_keywords %}
     <button class="btn btn-outline" type="button">{{ keyword }}</button>
