@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 概率导论学习记录（－）
+title: 概率导论学习记录（一）
 categories: Statistics
 description: 概率导论学习笔记
 keywords: 学习笔记, 概率导论
