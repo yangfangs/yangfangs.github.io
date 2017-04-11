@@ -187,7 +187,7 @@ pretty 18
 ## 安装
 
 ```python
-pip install virtualenv
+$ pip install virtualenv
 ```
 
 ## 创建一个虚拟环境
@@ -195,7 +195,7 @@ pip install virtualenv
 * 创建虚拟环境使用`virtualenv`命令来创建，名字可自己随便命名的。
 
 ```python
-virtualenv ven
+$ virtualenv ven
 ```
 
 ## 激活虚拟环境
@@ -203,19 +203,19 @@ virtualenv ven
 * 激活虚拟环境使用的是`source`命令执行的`bin`下的`activate`即可。激活后会看到终端命令行前有(ven)的标志。
 
 ```python
-source ven/bin/activate
+$ source ven/bin/activate
 ```
 
 ## 退出虚拟环境
 
 ```python
-deactivate
+$ deactivate
 ```
 
 ## 删除虚拟环境
 
 ```python
-rm -rf ven
+$ rm -rf ven
 ```
 
 
