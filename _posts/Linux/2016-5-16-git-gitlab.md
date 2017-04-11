@@ -288,6 +288,7 @@ build
 
 ## 修改本地对应远程仓库地址
 
+* 如果你电脑配置了与远程仓库SSH通信，最好`newurl`使用SSH格式链接。
 
 ```bash
 git remote set-url origin　[newurl]
