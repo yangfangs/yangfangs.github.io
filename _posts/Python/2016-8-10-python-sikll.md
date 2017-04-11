@@ -179,9 +179,48 @@ nice 20
 pretty 18
 ```
 
+# Python创建虚拟环境
+
+* Python有一个非常好的设计就是可以创建一个虚拟环境，然后在虚拟环境里面测试，最后删除虚拟环境，这样
+设计可以完全与本地Python环境隔开，互不干扰。
+
+## 安装
+
+```python
+pip install virtualenv
+```
+
+## 创建一个虚拟环境
+
+* 创建虚拟环境使用`virtualenv`命令来创建，名字可自己随便命名的。
+
+```python
+virtualenv ven
+```
+
+## 激活虚拟环境
+
+* 激活虚拟环境使用的是`source`命令执行的`bin`下的`activate`即可。激活后会看到终端命令行前有(ven)的标志。
+
+```python
+source ven/bin/activate
+```
+
+## 退出虚拟环境
+
+```python
+deactivate
+```
+
+## 删除虚拟环境
+
+```python
+rm -rf ven
+```
+
 
 ***
 
-**2016-12-26更新**
+**2017-4-11更新**
 
 ***
