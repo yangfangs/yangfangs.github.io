@@ -67,8 +67,20 @@ dnf system-upgrade download --releasever=25
 dnf system-upgrade reboot
 ```
 
+# Fedora下安装Rstudio的方法
+
+* 主要是使用`rpm`命令来安装(需要下载rpm格式的安装包)，如下：
+
+```bash
+$ wget "wget http://download2.rstudio.org/rstudio-1.0.136-x86_64.rpm"
+$ rpm -Uvh rstudio-1.0.136-x86_64.rpm"
+
+```
+
+
+
 ***
 
-**2017-1-9更新**
+**2017-4-12更新**
 
 ***
