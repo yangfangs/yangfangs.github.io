@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 使用 R 语言 Sleuth　包对 Kallisto 分析结果的下游分析
+title: 使用 R 语言 Sleuth 包对 Kallisto 分析结果的下游分析
 categories: bioinformatics
 description: sleuth的使用
 keywords: 生物信息学, sleu, RNA-seq, kallisto
