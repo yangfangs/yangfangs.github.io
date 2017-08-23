@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 使用 R 语言 DESeq2　对RNA-seq数据的下游分析 
+title: 使用 R 语言 DESeq2 对 RNA-seq 数据的下游分析
 categories: bioinformatics
 description: DESeq2使用
 keywords: 生物信息学, DESeq2, RNA-seq
 ---
 
-　　记录下使用 [DESeq2 package](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)　的使用方法。DESeq2　也是基于分析　RNA-seq counts 数据来进行差异表达基因的分析包。
+　　记录下使用 [DESeq2 package](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) 的使用方法。 DESeq2 也是基于分析 RNA-seq counts 数据来进行差异表达基因的分析包。
 
 # DESeq2 包的安装
 
@@ -22,7 +22,7 @@ keywords: 生物信息学, DESeq2, RNA-seq
 
 # 数据导入
 
-* 导入count 矩阵，导入数据的方式很多这里直接导入 count 矩阵,关于原始的 count　数据是什么样子可以在我另一篇博客[使用 R 语言 edgeR　包对RNA-seq测序结果下游分析](http://yangfangs.github.io/2016/04/10/RNAseq-edgeR-DEgenes-analysis/)中查看。
+* 导入 count 矩阵，导入数据的方式很多这里直接导入 count 矩阵,关于原始的 count 数据是什么样子可以在我另一篇博客[使用 R 语言 edgeR　包对RNA-seq测序结果下游分析](http://yangfangs.github.io/2016/04/10/RNAseq-edgeR-DEgenes-analysis/)中查看。
 * count 结果如下:
 
 ```r
@@ -32,7 +32,7 @@ mydata <- read.table("counts.txt", header = TRUE, quote = '\t',skip =1)
 names(mydata)[7:12] <- sampleNames
 countMatrix <- as.matrix(mydata[7:12])
 rownames(countMatrix) <-mydata$Geneid
-table2 <- data.frame(name = c("CA_1","CA_2","CA_3","CC_1","CC_2","CC_3"),condition = ("CA","CA","CA","CC","CC","CC"))
+table2 <- data.frame(name = c("CA_1","CA_2","CA_3","CC_1","CC_2","CC_3"),condition = c("CA","CA","CA","CC","CC","CC"))
 rownames(table2) <- sampleNames
 head(countMatrix)
 
@@ -45,7 +45,7 @@ gene1318    0    0    0    0    0    0
 gene1319    0    0    0    0    0    0
 
 ```
-* 把 count 矩阵转化为 DESeq2　的数据格式
+* 把 count 矩阵转化为 DESeq2 的数据格式
 
 ```r
 >dds <- DESeqDataSetFromMatrix(countMatrix, colData=table2, design= ~ condition)
@@ -96,7 +96,7 @@ plotPCA(rld, intgroup=c("name","condition"))
 ![plotPCA_DEseq](/images/posts/bioinformatics/plotPCA_DEseq.png)
 
 
-* 当然也可以使用 ggplot2　来画　PCA 图
+* 当然也可以使用 ggplot2 来画 PCA 图
 
 ```
 library(ggplot2)
@@ -111,7 +111,7 @@ p
 
 ```
 
-* 注意在进行 PCA 分析前不要 `library(DESeq)` 否则无法进行 PCA 分析
+> 注意在进行 PCA 分析前不要 `library(DESeq)` 否则无法进行 PCA 分析
 
 ![plotPCA_DEseq_ggplot2](/images/posts/bioinformatics/plotPCA_DEseq_ggplot2.png)
 
@@ -147,12 +147,18 @@ gene1324 6.565731e-01
 gene1325 2.447141e-02
 gene1326 4.520861e-08
 ```
-* 注：
-(1)rownames: 基因 ID
-(2)baseMean:所有样本矫正后的平均 reads 数
-(3)log2FoldChange:取 log2 后的表达量差异
-(4)pvalue:统计学差异显著性检验指标
-(5)padj:校正后的 pvalue, padj 越小,表示基因表达差异越显著
+
+> 注：
+
+> (1)rownames: 基因 ID
+
+> (2)baseMean:所有样本矫正后的平均 reads 数
+
+> (3)log2FoldChange:取 log2 后的表达量差异
+
+> (4)pvalue:统计学差异显著性检验指标
+
+> (5)padj:校正后的 pvalue, padj 越小,表示基因表达差异越显著
 
 * `summary`　查看整体分析结果
 
