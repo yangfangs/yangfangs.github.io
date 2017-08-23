@@ -6,7 +6,7 @@ description: 关于JavaFx配置
 keywords: JavaFx, IntelliJ IDEA, SceneBuilder
 ---
 
-  学习一下GUI的开发，想来想去几种语言中比较合适的还是Java。有几个优点是其他几种语言无法比拟的。
+　　学习一下GUI的开发，想来想去几种语言中比较合适的还是Java。有几个优点是其他几种语言无法比拟的。
 
 1.Java语言的跨平台性，Linux，Windows，Mac OS，只要装个Jre，都能运行。
 
