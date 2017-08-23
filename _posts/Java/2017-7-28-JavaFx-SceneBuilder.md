@@ -8,21 +8,21 @@ keywords: JavaFx, IntelliJ IDEA, SceneBuilder
 
 　　学习一下GUI的开发，想来想去几种语言中比较合适的还是Java。有几个优点是其他几种语言无法比拟的。
 
-1.Java语言的跨平台性，Linux，Windows，Mac OS，只要装个Jre，都能运行。
+1. Java语言的跨平台性，Linux，Windows，Mac OS，只要装个Jre，都能运行。
 
-2.面向对象编程和很多非常优秀的接口可以使用。
+2. 面向对象编程和很多非常优秀的接口可以使用。
 
-3.性能优秀并不用像使用C语言一样担心内存问题。
+3. 性能优秀并不用像使用C语言一样担心内存问题。
 
-4.与C\++相比,的确C\++实现的GUI更加绚丽和元素更加丰富，但是对于科学计算用的GUI设计，Java足够了。
+4. 与C\++相比,的确C\++实现的GUI更加绚丽和元素更加丰富，但是对于科学计算用的GUI设计，Java足够了。
 
-所以学习一下Java的GUI开发，发现Java的GUI开发框架也是不少的，主要流的UGI开发框架有两个：
+　　所以学习一下Java的GUI开发，发现Java的GUI开发框架也是不少的，主要流的UGI开发框架有两个：
 
 * [Swing](https://docs.oracle.com/javase/tutorial/uiswing/) 同时有支持可视化开发的 [WindowBuilder](https://eclipse.org/windowbuilder/)
 
 * [JavaFX](http://docs.oracle.com/javase/8/javase-clienttechnologies.htm) 同时有支持可视化开发的 [SceneBuilder](http://www.oracle.com/technetwork/java/javase/downloads/sb2download-2177776.html)
 
-JavaFX 是SUN公司在2007年JavaOne大会上首次对外公布，在2001年发布了2.0版本。而AWT和Swing API早在1996(JDK 1.0)年就形成，在1998年JDK 1.2全面添加。JavaFx已经被集成到Java 8的标准库中。所以还是非常值得探究学习的。
+　　JavaFX 是SUN公司在2007年JavaOne大会上首次对外公布，在2001年发布了2.0版本。而AWT和Swing API早在1996(JDK 1.0)年就形成，在1998年JDK 1.2全面添加。JavaFx已经被集成到Java 8的标准库中。所以还是非常值得探究学习的。
 本文记录下JavaFX SceneBuilder安装及其在IntelliJ IDEA中的配置
 
 ## 需要安装
