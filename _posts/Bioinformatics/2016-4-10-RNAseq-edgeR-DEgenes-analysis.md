@@ -6,7 +6,7 @@ description: edgeR使用
 keywords: 生物信息学, edgeR, RNA-seq
 ---
 
-　　对二代测序结果的下游分析软件很多，这里记录下使用 [edgeR package](https://bioconductor.org/packages/release/bioc/html/edgeR.html)　的使用方法。 edgeR　可以适用与　RNA-seq, SAGE-Seq 或者 ChIP-seq 数据的分析， degeR 基于　Robinson　和　Smyth　开发的精确统计方法来分析多 group　的实验结果，同时也基于　McCarthy 等人开发的广义线性模型(glms)方法来进行多因子实验的的统计分析。
+　　对二代测序结果的下游分析软件很多，这里记录下使用 [edgeR package](https://bioconductor.org/packages/release/bioc/html/edgeR.html)　的使用方法。 edgeR 可以适用与 RNA-seq, SAGE-Seq 或者 ChIP-seq 数据的分析， degeR 基于 Robinson 和 Smyth 开发的精确统计方法来分析多 group 的实验结果，同时也基于 McCarthy 等人开发的广义线性模型(glms)方法来进行多因子实验的的统计分析。
 
 # edgeR 包的安装
 
@@ -23,7 +23,7 @@ keywords: 生物信息学, edgeR, RNA-seq
 
 # 数据导入
 
-* 由于 edgeR 对测序结果的下游分析是依赖 count 计数来进行基因差异表达分析的，在这里使用的是 [featureCounts](http://bioinf.wehi.edu.au/featureCounts/) 来进行统计 ｀.bam｀　文件中 Map 的结果
+* 由于 edgeR 对测序结果的下游分析是依赖 count 计数来进行基因差异表达分析的，在这里使用的是 [featureCounts](http://bioinf.wehi.edu.au/featureCounts/) 来进行统计 `.bam` 文件中 Map 的结果
 * count 结果如下:
 
 ```r
