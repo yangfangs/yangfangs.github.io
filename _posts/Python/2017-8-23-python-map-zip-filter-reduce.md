@@ -6,7 +6,7 @@ description: python list操作函数的用法
 keywords: python,map(),filter(),reduce(),zip()
 ---
 
-　　Python 数据结构屈指可数，list是一个随时都在用的数据结构，对list进行操作python内置了几个函数对python的list进行操作时候非常方便。
+　　Python 自带模块的数据结构屈指可数，list是一个随时都在用的数据结构，对list进行操作python内置了几个函数对python的list进行操作时候非常方便。
 
 
 # map()函数——作用于list每一个元素
@@ -29,7 +29,7 @@ Out[2]: [1, 2, 3, 4]
 
 ## 编写独立函数作用与 list 中每一个元素：
 
-* 例如对　list　中每一个元素求平方
+* 例如对 list 中每一个元素求平方
 
 ```python
 def f(x):
@@ -66,10 +66,10 @@ Out[5]: [2, 4, 6, 8]
 
 # filter()函数——筛选函数
 
-* 按照function函数的规则在列表sequence中筛选数据
+* 按照 function 函数的规则在列表 sequence 中筛选数据
 * 用法：filter(function, sequence)
 
-## 筛选list中符合条件的值
+## 筛选 list 中符合条件的值
 
 ```python
 l =[1,2,3,4]
@@ -78,7 +78,7 @@ filter(lambda x: x>2, l)
 Out[6]: [3, 4]
 ```
 
-## filter()与map()返回值不同
+## filter() 与 map() 返回值不同
 
 ```python
 l =[1,2,3,4]
@@ -89,7 +89,7 @@ Out[8]: [False, False, True, True]
 
 # reduce()——求积累运算
 
-* reduce函数功能是将sequence中数据，按照function函数操作，如 将列表第一个数与第二个数进行function操作，得到的结果和列表中下一个数据进行function操作，一直循环下去…
+* reduce函数功能是将 sequence 中数据，按照 function 函数操作，如将列表第一个数与第二个数进行 function 操作，得到的结果和列表中下一个数据进行 function 操作，一直循环下去…
 
 * 用法reduce(function, sequence):
 
@@ -105,7 +105,7 @@ Out[10]: 10
 
 # zip()打包函数
 
-* zip()是Python的一个内建函数，它接受一系列可迭代的对象作为参数，将对象中对应的元素打包成一个个tuple（元组），然后返回由这些tuples组成的list（列表）。若传入参数的长度不等，则返回list的长度和参数中长度最短的对象相同。利用*号操作符，可以将list unzip（解压）。
+* zip()是 Python 的一个内建函数，它接受一系列可迭代的对象作为参数，将对象中对应的元素打包成一个个tuple（元组），然后返回由这些tuples组成的list（列表）。若传入参数的长度不等，则返回 list 的长度和参数中长度最短的对象相同。利用*号操作符，可以将list unzip（解压）。
 
 * 用法: zip(list,list)
 
