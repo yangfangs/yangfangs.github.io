@@ -148,16 +148,11 @@ gene1325 2.447141e-02
 gene1326 4.520861e-08
 ```
 
-> 注：
-
+> 注:
 > (1)rownames: 基因 ID
-
 > (2)baseMean:所有样本矫正后的平均 reads 数
-
 > (3)log2FoldChange:取 log2 后的表达量差异
-
 > (4)pvalue:统计学差异显著性检验指标
-
 > (5)padj:校正后的 pvalue, padj 越小,表示基因表达差异越显著
 
 * `summary`　查看整体分析结果
