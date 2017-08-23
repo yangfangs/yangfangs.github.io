@@ -6,7 +6,7 @@ description: python list操作函数的用法
 keywords: python,map(),filter(),reduce(),zip()
 ---
 
- Python 数据结构屈指可数，list是一个随时都在用的数据结构，对list进行操作python内置了几个函数对python的list进行操作时候非常方便。
+　　Python 数据结构屈指可数，list是一个随时都在用的数据结构，对list进行操作python内置了几个函数对python的list进行操作时候非常方便。
 
 
 # map()函数——作用于list每一个元素
