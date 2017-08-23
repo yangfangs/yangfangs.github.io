@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 使用 R 语言 edgeR　包对RNA-seq测序结果下游分析 
+title: 使用 R 语言 edgeR 包对RNA-seq测序结果下游分析
 categories: bioinformatics
 description: edgeR使用
 keywords: 生物信息学, edgeR, RNA-seq
