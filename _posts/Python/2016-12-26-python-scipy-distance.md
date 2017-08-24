@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python中科学计算库scipy中距离的计算
+title: Python 中科学计算库 scipy 中距离的计算
 categories: Python
 description: python scipy
 keywords: python, scipy, distance

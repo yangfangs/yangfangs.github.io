@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linux 命令行挂载U盘
+title: Linux 命令行挂载 U 盘
 categories: Linux
 description: 挂载U盘
 keywords: U盘, Linux

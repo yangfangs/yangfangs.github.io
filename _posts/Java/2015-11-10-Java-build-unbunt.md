@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java开发环境搭建(ubuntu)
+title: Java 开发环境搭建 (ubuntu)
 categories: Java
 description:
 keywords: Java,Ubuntu,环境配置

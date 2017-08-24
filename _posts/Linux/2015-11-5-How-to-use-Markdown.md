@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Markdown简明语法
+title: Markdown 简明语法
 categories: Linux
 description: Markdown语法
 keywords: Markdown, Linux

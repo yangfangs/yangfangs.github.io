@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java调用外部命令使用waitFor()方法阻塞或锁死
+title: Java 调用外部命令使用 waitFor() 方法阻塞或锁死
 categories: Java
 description: 解决线程锁死
 keywords: waitFor(),调用外部命令,阻塞，锁死
