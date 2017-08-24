@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JavaFX及其在IntelliJ IDEA中配置使用及发布
+title: JavaFx及其在IntelliJ IDEA中配置使用及发布
 categories: Java
 description: 关于JavaFx配置
 keywords: JavaFx, IntelliJ IDEA, SceneBuilder

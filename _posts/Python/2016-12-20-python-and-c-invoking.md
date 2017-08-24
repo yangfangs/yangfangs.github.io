@@ -1,19 +1,19 @@
 ---
 layout: post
-title: Python和C语言的交互
+title: Python 和 C 语言的交互
 categories: Python
 description: python C语言
 keywords: python, C语言，交互, ctypes
 ---
 
-　　最近算一个矩阵，计算大约为２亿对节点的距离，用`Python`的循环输出结果，用了大概40分钟把结果写入文本中，而使用，`scipy`的库计算
-距离，仅仅用了不到两分钟，无比感慨，差距怎可如此之大。翻看scipy库的源代码，计算距离是用C语言实现的，激发对Python和C语言交互的研究的
+　　最近算一个矩阵，计算大约为２亿对节点的距离，用 `Python` 的循环输出结果，用了大概40分钟把结果写入文本中，而使用， `scipy` 的库计算
+距离，仅仅用了不到两分钟，无比感慨，差距怎可如此之大。翻看 scipy 库的源代码，计算距离是用C语言实现的，激发对 Python 和 C 语言交互的研究的
 热情。记录一下方法，日后会用到。
 
 
 # 通过`ctypes`直接调用C的标准动态库
 
-## 1.加载C标准动态库方法
+## 1.加载 C 标准动态库方法
 
 ```python
 from ctypes import cdll
@@ -25,7 +25,7 @@ libc = cdll.LoadLibrary('libc.dylib')
 libc = cdll.msvcrt
 ````
 
-## 2.调用C标准库函数
+## 2.调用 C 标准库函数
 ```python
 # C标准库printf函数
 libc.printf("%s",'cprintf')
@@ -38,7 +38,7 @@ print libc.atoi("1234")
 ```
 
 
-## 3.ctypes 数据类型和 C数据类型 对照表
+## 3.ctypes 数据类型和 C  数据类型对照表
 
 
 | ctypes type  | C type                                 | Python type                |
@@ -65,7 +65,7 @@ print libc.atoi("1234")
 
 ## 4.创建ctypes类型
 
-* 使用`.value`取值和修改值
+* 使用 `.value` 取值和修改值
 
 ```python
 from ctypes import *
@@ -82,7 +82,7 @@ print x.value
 
 ## 5.函数返回类型
 
-* 默认返回C int类型，可以使用restype设置返回类型
+* 默认返回 C int 类型，可以使用 restype 设置返回类型
 
 ```python
 strchr = libc.strchr
@@ -138,7 +138,7 @@ print libtest.addnum(1, 2)
 
 # 第二种方法用C提供的API扩展Python
 
-* `scipy`就是这么干的，比较复杂，当然越是复杂的方法用法就越灵活。
+* `scipy` 就是这么干的，比较复杂，当然越是复杂的方法用法就越灵活。
 
 * 两篇不错的参考
 

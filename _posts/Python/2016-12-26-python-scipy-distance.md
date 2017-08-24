@@ -6,7 +6,7 @@ description: python scipy
 keywords: python, scipy, distance
 ---
 
-　　计算两两向量间的距离或者相似度，python和R都有相当成熟的库可以用，这里学习一下python库[scipy][1]中关于距离的计算方法。
+　　计算两两向量间的距离或者相似度， Python 和 R 都有相当成熟的库可以用，这里学习一下 Python 库[scipy][1]中关于距离的计算方法。
 
 
 # 安装库
@@ -18,7 +18,7 @@ pip install scipy
 
 # 使用
 
-* scipy 库关于距离的计算提供了`jaccard`、`hamming`等22种方法来计算两两向量间的距离，这里用`jaccard`为例：
+* scipy 库关于距离的计算提供了 `jaccard`、 `hamming` 等22种方法来计算两两向量间的距离，这里用 `jaccard` 为例：
 
 ```python
 import numpy as np

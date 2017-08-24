@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello World为例创建R包流程
+title: Hello World 为例创建R包流程
 categories: R
 description: R　包的创建流程
 keywords: packages ,R

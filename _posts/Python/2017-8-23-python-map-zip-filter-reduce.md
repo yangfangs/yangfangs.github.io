@@ -1,6 +1,6 @@
 ---
 layout: post
-title: python 中 map(), filter(), reduce() 和 zip() 函数的用法
+title: Python 中 map(), filter(), reduce() 和 zip() 函数的用法
 categories: Python
 description: python list操作函数的用法
 keywords: python,map(),filter(),reduce(),zip()

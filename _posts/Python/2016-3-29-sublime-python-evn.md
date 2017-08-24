@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sublime Text 3 中搭建Python开发环境
+title: Sublime Text 3 中搭建 Python 开发环境
 categories: Python
 description: sublime python 使用
 keywords: python,sublime

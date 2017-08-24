@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blat本地安装使用以及结果查看
+title: Blat 本地安装使用以及结果查看
 categories: bioinformatics
 description: 本地blat的安装
 keywords: 生物信息学, blat

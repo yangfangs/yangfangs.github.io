@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Python 测试单元unittest使用
+title: Python 测试单元 unittest 使用
 categories: Python
 description: python unittest
 keywords: python unittest
 ---
 
-　　学习一下python单元测试方法,这里使用的是PyUnit框架
+　　学习一下 Python 单元测试方法,这里使用的是 PyUnit 框架
 
 # 测试模块中的函数
 

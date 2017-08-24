@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fedora下安装PyCharm-Community版本
+title: Fedora下安装 PyCharm-Community 版本
 categories: Python
 description: 安装PyCharm
 keywords: PyCharm,install

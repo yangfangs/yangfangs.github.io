@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 分析生物数据　bash　命令
+title: 分析生物数据 bash 命令
 categories: bioinformatics
 description: bash 命令
 keywords: 生物信息学, bash, 命令行

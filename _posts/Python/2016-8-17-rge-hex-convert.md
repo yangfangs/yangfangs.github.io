@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RGB和16进制颜色(HEX)相互转换
+title: RGB 和 16 进制颜色(HEX)相互转换
 categories: Python
 description: RGB和HEX颜色转换
 keywords: RGB, HEX, covert
