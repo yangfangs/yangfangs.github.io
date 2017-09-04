@@ -218,9 +218,45 @@ $ deactivate
 $ rm -rf ven
 ```
 
+# Python 生成英文字母表
+
+## 手动生成
+
+* 小写字母表
+
+```python
+list(map(chr,list(range(97, 123))))
+
+```
+
+* 大写字母
+
+```python
+list(map(chr,list(range(65, 91))))
+
+```
+
+##　利用库函数 string
+
+* 小写字母表
+
+```python
+import string
+string.ascii_uppercase
+
+```
+
+* 大写字母
+
+```python
+import string
+string.ascii_lowercase
+
+```
+
 
 ***
 
-**2017-4-11更新**
+**2017-9-4更新**
 
 ***
