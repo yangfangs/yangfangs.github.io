@@ -157,6 +157,15 @@ awk -F '\t' -vOFS="\t" '{print $2,$1}' file1 > file2
 
 ```
 
+# 数据加上head标题
+
+* 使用 `'BEGIN{print""}'`
+
+```bash
+awk 'BEGIN{ print "Symbol\tGene set name" }{print}' file1 > file2
+
+```
+
 * 2017.9.10更新
 
 
