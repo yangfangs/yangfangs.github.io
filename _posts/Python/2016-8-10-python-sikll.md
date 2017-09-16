@@ -255,8 +255,36 @@ string.ascii_lowercase
 ```
 
 
+# 字典排序
+
+* 按键排序
+
+```python
+dic = {'a':11 , 'b':5 , 'c': 7}
+
+# 升序排序
+sorted(dic.keys())
+
+#　降序排序
+sorted(dic.keys(), reverse=True)
+
+```
+* 按值排序
+
+```python
+dic = {'a':11 , 'b':5 , 'c': 7}
+
+# 升序
+sorted(dic.items(), key = lambda x:x[1])
+
+# 降序
+sorted(dic.items(), key = lambda x:x[1],reverse =True)
+
+```
+
+
 ***
 
-**2017-9-4更新**
+**2017-9-16更新**
 
 ***
