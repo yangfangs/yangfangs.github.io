@@ -77,6 +77,96 @@ $ rpm -Uvh rstudio-1.0.136-x86_64.rpm"
 
 ```
 
+# Linux　下常用的解压和压缩命令
+
+* 明白几个常用的参数意思：
+
+| 参数  |  解释   |
+| ----- |-----|
+| -c | create的缩写，所以在创建压缩文档时候使用  |
+| -x | extract的缩写，所以在解压时候使用        |
+| -t | list的缩写，所以在查看压缩文档时候使用    |
+| -v | verbose的缩写，即详细列出处理文件的过程，一般都会带上，不建议后台运行  |
+| -v | verbose的缩写，即详细列出处理文件的过程，一般都会带上，不建议后台运行  |
+| -z | 使用gzip 压缩  |
+| -j | 使用bzip2 压缩  |
+
+## 只是打包不压缩
+
+* 解包：
+
+```bash
+tar xvf FileName.tar
+```
+
+* 打包：
+
+```bash
+tar cvf FileName.tar DirName
+```
+
+## 只是压缩(.gz)为例
+
+* 解压：
+
+```bash
+gunzip FileName.gz
+
+# 或
+gzip -d FileName.gz
+```
+
+* 压缩：
+
+```bash
+gzip FileName
+```
+
+## 同时打包和压缩
+
+### `.gz` 格式
+
+* 解压
+
+```bash
+tar zxvf FileName.tar.gz
+```
+
+* 压缩
+
+```bash
+tar zcvf FileName.tar.gz DirName
+
+```
+
+### `.bz2` 格式
+
+* 解压
+
+```bash
+tar jxvf FileName.tar.bz2
+```
+
+* 压缩
+
+```bash
+tar jcvf FileName.tar.bz2 DirName
+```
+
+## '.zip'　格式
+
+* 解压
+
+```bash
+unzip FileName.zip
+```
+
+* 压缩
+
+```bash
+zip FileName.zip DirName
+```
+
 
 
 ***
