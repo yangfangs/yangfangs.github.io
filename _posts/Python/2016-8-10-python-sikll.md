@@ -282,9 +282,18 @@ sorted(dic.items(), key = lambda x:x[1],reverse =True)
 
 ```
 
+# 获取目录忽略隐藏文件
+
+```python
+import os
+dir_path = '/home/user/'
+
+filter( lambda f: not f.startswith('.'), os.listdir(dir_path))
+
+```
 
 ***
 
-**2017-9-16更新**
+**2017-10-1更新**
 
 ***
