@@ -166,9 +166,37 @@ awk 'BEGIN{ print "Symbol\tGene set name" }{print}' file1 > file2
 
 ```
 
+# 统计当前目录下文件个数
+
+* 统计文件个数
+
+```bash
+ls -l |grep "^-"|wc -l
+```
+
+* 统计目录个数
+
+```bash
+ls -l |grep "^d"|wc -l
+```
+
+* 统计包括子文件夹下文件个数
+
+```bash
+ls -lR|grep "^-"|wc -l
+```
+
+* 统计包括子目录目录个数
+
+```bash
+ls -lR|grep "^d"|wc -l
+```
+
+
+
+***
 * 2017.9.10更新
-
-
+***
 
 
 
