@@ -153,7 +153,7 @@ tar jxvf FileName.tar.bz2
 tar jcvf FileName.tar.bz2 DirName
 ```
 
-## '.zip'　格式
+## `.zip`　格式
 
 * 解压
 
@@ -168,9 +168,83 @@ zip FileName.zip DirName
 ```
 
 
+# Linux　命令行与服务器交互
+
+## 登录服务器使用 `ssh`　命令
+
+### 以 root　账户登录
+
+```bash
+ssh 192.168.1.100
+
+```
+
+### 以用户登录
+
+
+```bash
+ssh username@192.168.1.100
+
+```
+
+## 上传和下载 `scp` 命令
+
+### 上传
+
+* 上传文件：上传本地　`file.txt` 到远程服务器 `/home/work/` 目录下
+
+
+```bash
+scp /home/work/file.txt username@192.168.1.100:/home/work/
+
+```
+
+* 上传整个文件夹：上传整个 `dir`　目录到服务器　`/home/work/` 目录下
+
+```bash
+scp -r /home/work/dir username@192.168.1.100:/home/work/
+
+```
+
+### 下载
+
+* 下载服务器文件 `file.txt`到本地　`/home/work/` 目录下
+
+```bash
+
+scp username@192.168.1.100:/home/work/file.txt /home/work/
+```
+
+* 下载服务器目录 `dir` 到本地 　`/home/work/` 目录下
+
+```bash
+
+scp -r username@192.168.1.100:/home/work/dir /home/work/
+```
+
+
+# nohup--断开链接服务器依然运行(后台)
+
+* 本地链接上服务器跑程序时候，我们并不想在关闭 `terminal`　后程序就不运行了，而是想挂在服务器上让程序一直运行，直到结束。 `nohup`命令可以实现
+
+```bash
+
+nohup command
+
+```
+
+* 或者指定输出日志
+
+```bash
+
+nohup command > output.log
+
+```
+
+
 
 ***
 
-**2017-4-12更新**
+**2017-10-1更新**
 
 ***
