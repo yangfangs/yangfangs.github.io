@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python 中的一些小技巧
+title: Python 中的一些实用技巧
 categories: Python
 description: Python skill
 keywords: Development, Skill, Python
@@ -135,7 +135,7 @@ print b
 
 # List去除重复
 
-* 例如　a = [[a,b],[a,c],[a,d]]
+* 例如　a = [1,2,3,3,4,1]
 
 ```python
 a = [1,2,3,3,4,1]
