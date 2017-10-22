@@ -20,3 +20,4 @@ permalink: /links/
 * [糗世界](http://blog.qiubio.com:8080/)
 * [Heng Li's blog](https://lh3.github.io/)
 * [当然我在扯淡](http://www.yinwang.org/)
+* [苏州月不落](https://godinlove.github.io/)
