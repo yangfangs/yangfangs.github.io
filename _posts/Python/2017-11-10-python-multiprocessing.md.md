@@ -8,7 +8,8 @@ keywords: map, multiprocessing, Python3
 
 
 　　当你在使用 Python 进行 for 循环时候，发现计算的效率及其慢的时候，完全可以考虑使用 Python 的并行操作，毕竟这么多核心不用也是一种浪费。还有 Python 标准库提供了并行库相当的简洁好用。
-  
+
+
 # Python中的标准库
  
 　　Python 标准库中有两个提供并行计算一个是[multiprocessing](https://docs.python.org/3.6/library/multiprocessing.html), 另一个是 [threading](https://docs.python.org/3.6/library/threading.html),推荐使用 multiprocessing, 当只有I/O密集型操作时候才有用到threading的必要。当然由于 Python 的 [Global interpreter lock](https://docs.python.org/2.7/glossary.html#term-global-interpreter-lock)存在，导致 Python 不能进行并行编程，只能进行并发编程。
