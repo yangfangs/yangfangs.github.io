@@ -1,12 +1,11 @@
 ---
 layout: post
-title: CentOS 中安装 Python3
+title: Python并行计算
 categories: Python
-description: 安装 python3 centOS
-keywords: centOS, install, Python3
+description: Python　并行计算　multiprocessing
+keywords: map, multiprocessing, Python3
 ---
 
-#Python下使用并行计算方法
 
 　　当你在使用 Python 进行 for 循环时候，发现计算的效率及其慢的时候，完全可以考虑使用 Python 的并行操作，毕竟这么多核心不用也是一种浪费。还有 Python 标准库提供了并行库相当的简洁好用。
   
