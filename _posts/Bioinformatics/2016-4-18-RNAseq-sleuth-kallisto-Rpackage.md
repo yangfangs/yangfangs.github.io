@@ -10,7 +10,7 @@ keywords: 生物信息学, sleu, RNA-seq, kallisto
   
 # Sleuth 包的安装
 
-* Sleuth 包还没又发布，所以只能通过 github 来安装，先安装 `rhdf5` 再安装 `devtools`　最后通过 github　安装 `sleuth`
+* Sleuth 包还没有发布，所以只能通过 github 来安装，先安装 `rhdf5` 再安装 `devtools`　最后通过 github　安装 `sleuth`
 * 安装:
 
 ```r
