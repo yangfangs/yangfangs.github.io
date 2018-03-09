@@ -153,7 +153,7 @@ tar jxvf FileName.tar.bz2
 tar jcvf FileName.tar.bz2 DirName
 ```
 
-## `.zip`　格式
+### `.zip`　格式
 
 * 解压
 
