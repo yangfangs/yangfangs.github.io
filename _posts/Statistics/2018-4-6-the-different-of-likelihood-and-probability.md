@@ -16,9 +16,9 @@ keywords: 学习笔记, 概率导论
 | 符号 | 含义 |
 |--------|--------|
 | $0$    |     观测值   |
-| $\Theta$    |    随机过程中的参数    |
+| $\theta$    |    随机过程中的参数    |
 | $hat{\Theta}$   |   参数的估计     |
-| $P (O &#124; /Theta)$   |    概率    |
+| $P (O &#124; \Theta)$   |    概率    |
 | $L(\Theta &#124; O) $   |      释然  |
 
 
@@ -46,10 +46,10 @@ keywords: 学习笔记, 概率导论
 
 
 
-这时我们想要计算的就是“概率”用 $ P (O | /Theta) $ 来表示。换个角度可以理解为，当给定了特定的参数$\Theta$时候，$ P (O | /Theta) $就是我们观测到$0$观测值时候的概率。
+这时我们想要计算的就是“概率”用 $P (O | \Theta)$ 来表示。换个角度可以理解为，当给定了特定的参数$\Theta$时候，$P (O | \Theta)$就是我们观测到$O$观测值时候的概率。
 
 
-但是，当我们想来刻画一个实际的随机过程时候，我们常常并不知道$\Theta$参数是什么。我们只有观测值$0$，基于这个观测值我们往往想得到一个关于$\Theta$的估计值$hat{\Theta}$。当给定$\Theta$ 时候我们可以得到观测值$0$是 $ P (O | /Theta) $。当然反过来，对于估计过程是在选择一个$hat{\Theta}$ 最大值，这个值就等价于真实观测值$0$的概率。换而言之，是在寻找一个值$hat{\Theta}$的最大化使得
+但是，当我们想来刻画一个实际的随机过程时候，我们常常并不知道$\Theta$参数是什么。我们只有观测值$0$，基于这个观测值我们往往想得到一个关于$\Theta$的估计值$hat{\Theta}$。当给定$\Theta$ 时候我们可以得到观测值$0$是 $ P (O | \Theta) $。当然反过来，对于估计过程是在选择一个$hat{\Theta}$ 最大值，这个值就等价于真实观测值$0$的概率。换而言之，是在寻找一个值$hat{\Theta}$的最大化使得
 
 $ L(\Theta | O) = P (O | \Theta) $
 
@@ -61,7 +61,7 @@ $ L(\Theta | O) = P (O | \Theta) $
 
 # 从连续型随机变量角度看待“似然”与“概率”
 
-对于连续型随机变量与离散随机变量有一个非常重要的区别，就是人们不会去关注给定$\Theta$后观测值$0$得概率。因为，连续型随机变量存在无限多的结果（无限可分），这些结果是无法被穷尽的。我们给出某一个结果对应的概率是没有意义的（连续型随机变量产生的结果是无限的，落在任何一个“可能的结果”上的概率几乎都为0，也就是$ P (O | /Theta) = 0 $）。
+对于连续型随机变量与离散随机变量有一个非常重要的区别，就是人们不会去关注给定$\Theta$后观测值$0$得概率。因为，连续型随机变量存在无限多的结果（无限可分），这些结果是无法被穷尽的。我们给出某一个结果对应的概率是没有意义的（连续型随机变量产生的结果是无限的，落在任何一个“可能的结果”上的概率几乎都为0，也就是$ P (O | \Theta) = 0 $）。
 
 当然，可以变换一种方式既给出落在结果区间范围上的概率，而非给出单个结果的概率，来解决这个问题。对于观测值$O$，可以用概率密度函数(PDF:probability density function)来表示为：$f(O|\Theta)$。因此，在连续的情况下，我们通过最大化以下函数来估计观察到的结果$O$：
 
@@ -74,16 +74,16 @@ $ L(\Theta | O) = f(O | \Theta) $
 
 对于这个函数：
 
-$ P (O | /Theta) $
+$ P (O | \Theta) $
 
-输入有两个：$O$表示某一个具体的数据；$/Theta$表示模型的参数。
+输入有两个：$O$表示某一个具体的数据；$\Theta$表示模型的参数。
 
-* 如果$/Theta$是已知确定的，$O$是变量，这个函数叫做概率函数(probability function)，它描述对于不同的样本$O$，其出现概率是多少。
+* 如果$\Theta$是已知确定的，$O$是变量，这个函数叫做概率函数(probability function)，它描述对于不同的样本$O$，其出现概率是多少。
 
-* 如果$O$是已知确定的，$/Theta$是变量，这个函数叫做似然函数(likelihood function), 它描述对于不同的模型参数，出现x这个样本点的概率是多少。
+* 如果$O$是已知确定的，$\Theta$是变量，这个函数叫做似然函数(likelihood function), 它描述对于不同的模型参数，出现x这个样本点的概率是多少。
 
 
 
 # 参考：
-[Wiki: Likelihood function](https://en.wikipedia.org/wiki/Likelihood_function)
-[What is the difference between “likelihood” and “probability”?](https://stats.stackexchange.com/questions/2641/what-is-the-difference-between-likelihood-and-probability)
+[Wiki: Likelihood function](https:\en.wikipedia.org\wiki\Likelihood_function)
+[What is the difference between “likelihood” and “probability”?](https:\stats.stackexchange.com\questions\2641\what-is-the-difference-between-likelihood-and-probability)
