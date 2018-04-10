@@ -54,17 +54,14 @@ keywords: 学习笔记, 概率导论
 
 
 
-
-
 # 从连续型随机变量角度看待“似然”与“概率”
 
   对于连续型随机变量与离散随机变量有一个非常重要的区别，就是人们不会去关注给定$\Theta$后观测值$O$得概率。因为，连续型随机变量存在无限多的结果（无限可分），这些结果是无法被穷尽的。我们给出某一个结果对应的概率是没有意义的（连续型随机变量产生的结果是无限的，落在任何一个“可能的结果”上的概率几乎都为0，也就是$ P (O | \Theta) = 0 ）$。
   
   当然，可以变换一种方式既给出落在结果区间范围上的概率，而非给出单个结果的概率，来解决这个问题。对于观测值$O$，可以用概率密度函数(PDF:probability density function)来表示为：$f(O|\Theta)$。因此，在连续的情况下，我们通过最大化以下函数来估计观察到的结果$O$：
-
+  
   $$ L(\Theta | O) = f(O | \Theta) $$
-
-
+  
   在这种情况下，我们不能在技术上断言我们找到最大化观察$O$的概率的参数值，因为我们最大化的是与观察结果$O$相关的PDF。
 
 # “似然”和“概率”是站在两个角度看待问题
@@ -82,5 +79,6 @@ keywords: 学习笔记, 概率导论
 
 
 # 参考：
-[Wiki: Likelihood function](https:\en.wikipedia.org\wiki\Likelihood_function)
-[What is the difference between “likelihood” and “probability”?](https:\stats.stackexchange.com\questions\2641\what-is-the-difference-between-likelihood-and-probability)
+* [Wiki: Likelihood function](https:\en.wikipedia.org\wiki\Likelihood_function)
+
+* [What is the difference between “likelihood” and “probability”?](https:\stats.stackexchange.com\questions\2641\what-is-the-difference-between-likelihood-and-probability)
