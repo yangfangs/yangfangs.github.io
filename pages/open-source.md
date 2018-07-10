@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Open Source Projects
-keywords: 开源,open-source,GitHub,开源项目
-description: 开源改变世界。我是一个热衷于开源的人，也多多少于参与与创建了一些开源项目，希望在开源这条路上能做出更大更多的贡献。
+keywords: 生物信息学，算法，系统发育普
+description: 喜欢生物信息学放心，从事生物信息学与生物功能结合方法。
 permalink: /open-source/
 ---
 <section class="container">
