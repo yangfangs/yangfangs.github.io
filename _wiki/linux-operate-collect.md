@@ -260,7 +260,7 @@ $ ls -l | grep "^d" | wc -l
 
 # Linux下配置使用shadowsocks
 
-1. 安装shadowsocks
+1.安装shadowsocks
 
 ```bash
 
@@ -269,7 +269,7 @@ pip install shadowsocks
 ```
 
 
-2. 写入配置shadowsocks到json文件
+2.写入配置shadowsocks到json文件
 
 * 文件名为`ss.json`
 
@@ -285,13 +285,13 @@ pip install shadowsocks
 }
 
 ```
-3. 启动
+3.启动
 
 ```bash
 sslocal -c ss.json
 ```
 
-4. 在终端中也使用代理上网(临时，关闭终端就无效了)
+4.在终端中也使用代理上网(临时，关闭终端就无效了)
 
 ```bash
 export ALL_PROXY=socks5://127.0.0.1:1080
