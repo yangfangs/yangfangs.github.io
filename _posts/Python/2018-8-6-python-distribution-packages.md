@@ -16,7 +16,7 @@ keywords: python3, distribution, 发布
 ```bash
 sudo pip install setuptools
 ```
-# 方便上传工具
+* 方便上传工具
 
 ```bash
 sudo pip install twine
