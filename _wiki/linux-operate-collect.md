@@ -257,8 +257,50 @@ $ ls -l | grep "^d" | wc -l
 
 **若要进行递归目录下的目录也统计的话，第一个管道前命令改为*$ ls -lR*即可**
 
+
+# Linux下配置使用shadowsocks
+
+1. 安装shadowsocks
+
+```bash
+
+pip install shadowsocks
+
+```
+
+
+2. 写入配置shadowsocks到json文件
+
+* 文件名为`ss.json`
+
+```python
+
+{
+"server":"11.16.266.108",
+"server_port":2562,
+"local_port":1080,
+"password":"1234",
+"timeout":600,
+"method":"aes-256-cfb"
+}
+
+```
+3. 启动
+
+```bash
+sslocal -c ss.json
+```
+
+4. 在终端中也使用代理上网(临时，关闭终端就无效了)
+
+```bash
+export ALL_PROXY=socks5://127.0.0.1:1080
+
+```
+
+
 ***
 
-**2018-3-9更新**
+**2018-8-6更新**
 
 ***
