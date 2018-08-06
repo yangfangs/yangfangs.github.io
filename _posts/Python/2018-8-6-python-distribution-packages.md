@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Python 快速打包发布软件pypi上
+title: Python 快速打包发布软件PyPi上
 categories: Python
 description: Python　打包　distribution package 发布
 keywords: python3, distribution, 发布
 ---
 
-  PyPi[https://pypi.org/]是一个python包的仓库，就如 R 的CRAN[https://cran.r-project.org/mirror-howto.html]和 perl 的[CPAN](https://www.perl.org/cpan.html)一样，里面有很多别人打包发布的python库，你可以通过easy_install或者pip进行安装,方便用户更方面的使用你的代码模块。
+  [PyPi](https://pypi.org/)是一个python包的仓库，就如 R 的[CRAN](https://cran.r-project.org/mirror-howto.html)和 perl 的[CPAN](https://www.perl.org/cpan.html)一样，里面有很多别人打包发布的python包，你可以通过easy_install或者pip进行安装,方便用户更方面的使用你的代码模块。
 本文记录了如何创建自己的 Python 包,以及打包发布到PyPi上。
 
 # 首先安装打包必要的工具
@@ -23,7 +23,7 @@ sudo pip install twine
 ```
 
 
-# 在PyPi[https://pypi.org/]官网注册一个PyPi个人账户如下
+# 在[PyPi](https://pypi.org/)官网注册一个PyPi个人账户如下
 
 ![PyPi](/images/posts/Python/PyPI_Index.png)
 
@@ -61,7 +61,7 @@ setup(
 |---|---|
 |  name |  项目名称 |
 | version  |  项目版本 |
-|  packages |  项目包含的数据 |使用pip搜索和install你的pytho
+|  packages |  项目包含的数据 |
 |  entry_points |  项目的主入口 |
 |  install_requires |  项目依赖包 |
 |  url |  项目地址 |
