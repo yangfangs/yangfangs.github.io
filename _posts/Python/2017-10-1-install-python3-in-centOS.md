@@ -13,7 +13,7 @@ keywords: centOS, install, Python3
 * 首先在管理员权限下安装好所有的依赖,不然会出现各种各样的报错和问题。
 
 ```bash
-yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gcc make
+yum -y install zlib-devel bzip2-devel libffi-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gcc make
 
 ```
 
