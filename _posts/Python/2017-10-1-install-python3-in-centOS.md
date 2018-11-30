@@ -19,21 +19,23 @@ yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel r
 
 # 获取 Python3 的最新安装包
 
-* 这里获取的是当前最新的稳定版本 `3.6.2` 可以在 [Python官网](https://www.python.org/)获取最新发布版本。
+* 这里获取的是当前最新的稳定版本 `3.7.1` 可以在 [Python官网](https://www.python.org/)获取最新发布版本。
 
 ```bash
 
-wget "https://www.python.org/ftp/python/3.6.2/Python-3.6.2.tar.xz"
+wget "https://www.python.org/ftp/python/3.7.1/Python-3.7.1.tar.xz"
 
 ```
 
 # 解压和安装
 
 * 解压
+
 ```bash
-xz -d Python-3.6.2.tar.xz
-tar xf Python-3.6.2.tar -C /usr/local/src/
-cd /usr/local/src/Python-3.6.2/
+
+xz -d Python-3.7.1.tar.xz
+tar xf Python-3.7.1.tar -C /usr/local/src/
+cd /usr/local/src/Python-3.7.1/
 
 ```
 
