@@ -51,7 +51,7 @@ make clean
 # 查看安装好的 Python3 版本信息
 
 ```bash
-/pot/python3/bin/python3 -V
+/opt/python3/bin/python3 -V
 
 ```
 
