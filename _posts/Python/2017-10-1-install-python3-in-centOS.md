@@ -58,7 +58,8 @@ make clean
 # 软链接到当先用户
 
 ```bash
-ln -s　/opt/python3/bin/python3 /usr/bin/python3
+
+ln -s /opt/python3/bin/python3 /usr/bin/python3
 
 ```
 
