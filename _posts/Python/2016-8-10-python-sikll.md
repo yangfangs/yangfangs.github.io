@@ -236,7 +236,7 @@ list(map(chr,list(range(65, 91))))
 
 ```
 
-##　利用库函数 string
+## 利用库函数 string
 
 * 小写字母表
 
