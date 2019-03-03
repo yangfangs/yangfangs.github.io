@@ -4,6 +4,11 @@
 
 欢迎 Star 和 Fork。
 
+## 2019.3.3更新日志：
+
+* 由于不算子(http://busuanzi.ibruce.info/)无法使用强制过期域名**dn-lbstatics.qbox.me**遂更新为**busuanzi.ibruce.info**
+
+
 ## 2017.4.8更新日志：
 
 * 博客加入[不蒜子](http://busuanzi.ibruce.info/)访问计数。
