@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 求1亿对Hamming distance仅需0.5ms的Java源码bitCount理解
+title: 计算1亿对Hamming distance仅需0.5ms的Java源码bitCount解析
 categories: Java
 description: bitCount
 keywords: 汉明距离，二进制，Java，bitCount
@@ -193,7 +193,7 @@ public int numberOf1(int hash1, int hash2){
 数6次就能知道二进制中有多少个1了，这种方法实现了时间复杂度为O(1)优秀算法。
 
 
-# Java源码算法实现
+## Java源码算法实现机理
 
 * Java源码中每次`&`运算各个数的二进制，主要是为了抹除成对统计时候的左位（进行右移位运算时候高位对低位产生的影响）。
 
