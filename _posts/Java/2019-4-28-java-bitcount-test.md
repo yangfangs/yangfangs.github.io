@@ -156,7 +156,7 @@ public int numberOf1(int hash1, int hash2){
 
 * Java的32位二进制Integer.bitCount源码如下：
 
-```Java
+```java
 
     public static int bitCount(int i) {
     i = i - ((i >>> 1) & 0x55555555);
