@@ -7,7 +7,7 @@ keywords: 汉明距离，二进制，Java，bitCount
 ---
 
   汉明距离（[Hamming Distance](https://en.wikipedia.org/wiki/Hamming_distance)）的基本思想很简单，就是找不同。当求由01二进制组成
-  的向量间的汉明距离可以由位运算直接进行，速度非常快。好的算法能让计算速度达到极快，Java内置bitCount源码就实现了一种极快的速度的算法。在Linux机器
+  的向量间的汉明距离可以由位运算直接进行，速度非常快。好的算法能让计算速度达到极快，Java内置bitCount源码就实现了一种速度极快的算法。在Linux机器
   （CPU: i7-4790 @ 3.6GHz）测试了1亿对汉明距离只用0.5ms，是普通算法的196倍。
 
 
