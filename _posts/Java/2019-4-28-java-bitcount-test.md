@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 计算1亿对Hamming distance仅需0.5ms的Java源码bitCount解析
+title: 计算1亿对Hamming distance仅需5ms的Java源码bitCount解析
 categories: Java
 description: bitCount
 keywords: 汉明距离，二进制，Java，bitCount
