@@ -192,10 +192,18 @@ ls -lR|grep "^-"|wc -l
 ls -lR|grep "^d"|wc -l
 ```
 
+# grep
+
+* `grep` 带分隔符的数据(以Tab为例)
+
+```
+grep 'B8BUD4'$'\t''A7RKS9' file.txt
+
+```
 
 
 ***
-* 2017.9.10更新
+* 2019.7.25更新
 ***
 
 
