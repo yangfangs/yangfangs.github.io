@@ -122,8 +122,15 @@ python setup.py install
 ```bash
 python setup.py register
 ```
+4.检测是否符合Pypi要求
 
-4.上传
+```bash
+
+twine check dist/**_.tar.gz
+
+```
+
+5.上传
 
 ```bash
 twine upload dist/**_.tar.gz
