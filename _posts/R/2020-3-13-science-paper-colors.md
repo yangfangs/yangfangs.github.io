@@ -24,11 +24,9 @@ keywords: colors, science, always used
 * Colorbrewer2.0 提供的十六进制的色彩代码例如 `#762a83` 和 `#5aae61`
 
 
-
-
 # 2 使用 R 语言的 [RColorBrewer][2]包提供的色彩方案
 
-## 使用 `display.brewer.all()` 查看 RColorBrewer 包的调色版
+## 使用 display.brewer.all() 查看 RColorBrewer 包的调色版
 
 ```R
 > library(RColorBrewer)
@@ -82,6 +80,7 @@ YlOrRd           9      seq       TRUE
 * 从上到下依次是 diverging, qualitative, sequential 分类以及每类颜色个个数。
 
 ## 使用 display.brewer.pal() 查看具体每个配色方案
+
 ```R
 display.brewer.pal(8,"Set1") 
 ```
@@ -107,7 +106,7 @@ image(1 : length(mycolors), 1, as.matrix(1 : length(mycolors)), col = mycolors ,
 ![colorRampPalette_self.png](/images/posts/R/colorRampPalette_self.png)
 
 
-# Adobe Illustrator 中使用 ColorBrewer 调色版
+# 3 在Adobe Illustrator 中使用 ColorBrewer 调色版
 
 * AI中直接配有科学色彩库方便科学用色，依次菜单窗口--->色板--->色板库--->科学,选择需要的颜色。
 
