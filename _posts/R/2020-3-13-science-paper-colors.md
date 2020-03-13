@@ -28,16 +28,16 @@ keywords: colors, science, always used
 
 # 2 使用 R 语言的 [RColorBrewer][2]包提供的色彩方案
 
-# 使用 `display.brewer.all()` 查看 RColorBrewer 包的调色版
+## 使用 `display.brewer.all()` 查看 RColorBrewer 包的调色版
 
 ```R
 > library(RColorBrewer)
 > display.brewer.all()
 ```
-![Colorbrewer](/images/posts/R/ColorBrewer_Color.png)
+![Colorbrewer](/images/posts/R/RColorBrewer_palettes.png)
 
 
-## 使用`brewer.pal.info` 命令查看色彩系统。
+## 使用 brewer.pal.info 命令查看色彩系统。
 
 ```R
 > brewer.pal.info
@@ -81,21 +81,21 @@ YlOrRd           9      seq       TRUE
 ```
 * 从上到下依次是 diverging, qualitative, sequential 分类以及每类颜色个个数。
 
-# 使用 `display.brewer.pal()` 查看具体每个配色方案
+## 使用 display.brewer.pal() 查看具体每个配色方案
 ```R
 display.brewer.pal(8,"Set1") 
 ```
 
 ![colorbrewer_package](/images/posts/R/colorbrewer_package_each_color.png)
 
-# 使用 ` brewer.pal(8,"Set1")` 获取十六进制颜色代码
+## 使用 brewer.pal(8,"Set1") 获取十六进制颜色代码
 
 ```R
  > brewer.pal(8,"Set1")
  [1] "#E41A1C" "#377EB8" "#4DAF4A" "#984EA3" "#FF7F00" "#FFFF33" "#A65628" "#F781BF"
 ```
 
-# 使用`colorRampPalette()`自定义颜色个数
+## 使用 colorRampPalette() 自定义颜色数量
 
 ```R
 cols<-brewer.pal(8, "YlGnBu")
@@ -107,7 +107,7 @@ image(1 : length(mycolors), 1, as.matrix(1 : length(mycolors)), col = mycolors ,
 ![colorRampPalette_self.png](/images/posts/R/colorRampPalette_self.png)
 
 
-# Adobe Illustrator 中使用ColorBrewer调色版
+# Adobe Illustrator 中使用 ColorBrewer 调色版
 
 * AI中直接配有科学色彩库方便科学用色，依次菜单窗口--->色板--->色板库--->科学,选择需要的颜色。
 
@@ -119,9 +119,9 @@ image(1 : length(mycolors), 1, as.matrix(1 : length(mycolors)), col = mycolors ,
 
 # 参考
 
-[Exploratory Data Analysis with R][3]
-[使用 ggplot2 和 RColorBrewer 扩展调色板][4]
-[RColorBrewer与ggplot2][5]
+* [Exploratory Data Analysis with R][3]
+* [使用 ggplot2 和 RColorBrewer 扩展调色板][4]
+* [RColorBrewer与ggplot2][5]
 
 [1]: https://colorbrewer2.org/
 [2]: https://cran.r-project.org/web/packages/RColorBrewer/index.html
