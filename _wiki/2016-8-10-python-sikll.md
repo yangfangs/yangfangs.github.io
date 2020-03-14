@@ -1,3 +1,4 @@
+---
 layout: wiki
 title: Python 中的一些实用技巧
 categories: Python
