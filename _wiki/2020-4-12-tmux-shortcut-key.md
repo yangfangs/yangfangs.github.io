@@ -17,7 +17,7 @@ $ yum -y install tmux
 
 # 常用命令
 
-## 终端中使用tmux命令
+## 终端中使用 Tmux 命令
 
 * 启动 tmux 使用 `-s` 命令指定会话名称，使用 `-n` 命令指定窗口名称
 
@@ -51,8 +51,11 @@ $ tmux kill-session -t sessionName
 ```
 
 * 查看所有会话
+
 ```bash
+
 $ tmux ls
+
 ```
 
 * 激活会话
@@ -63,7 +66,7 @@ $ tmux attach -t sessionName
 
 
 
-## tmux 内使用前缀 Ctrl+b 然后对应快捷键执行命令
+## Tmux 内使用前缀 Ctrl+b 然后对应快捷键执行命令
 
 ### 会话常用快捷操作
 
