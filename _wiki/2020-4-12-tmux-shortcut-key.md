@@ -2,12 +2,12 @@
 layout: wiki
 title: Tmux 常用快捷键
 categories: linux
-description: linux　命令, tumx 快捷键
+description: linux　命令, tmux 快捷键
 keywords: linux, tmux,
 ---
 
 Tmux 是服务器端取代传统 Terminal 的神器，分屏幕操作，多任务操作，后台运行（取代 nohup 命令 ），任务恢复
-（再次链接服务器恢复上次断开时候的Terminal的环境，继续工作），总结下tmux使用方法和快捷键，方便查询。
+（再次链接服务器恢复上次断开时候的Terminal的环境，继续工作），总结下Tmux使用方法和快捷键，方便查询。
 
 # 安装 Tmux (centOS 环境)
 
