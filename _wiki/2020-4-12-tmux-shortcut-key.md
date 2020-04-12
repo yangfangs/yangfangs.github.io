@@ -9,7 +9,7 @@ keywords: linux, tmux,
 Tmux 是服务器端取代传统 Terminal 的神器，分屏幕操作，多任务操作，后台运行（取代 nohup 命令 ），任务恢复
 （再次链接服务器恢复上次断开时候的Terminal的环境，继续工作），总结下tmux使用方法和快捷键，方便查询。
 
-# 安装Tmux(centOS 环境)
+# 安装 Tmux (centOS 环境)
 
 ```bash
 $ yum -y install tmux
@@ -32,15 +32,20 @@ $ tmux detach
 ```
 
 * 退出并关闭会话（窗口,窗格）
+
 ```bash
 $ exit
 ```
 * 结束后台的会话
+
 ```bash
-# 通过会话编号
+
+#通过会话编号
+
 $ tmux kill-session -t 0
 
-# 通过会话名称
+#通过会话名称
+
 $ tmux kill-session -t sessionName 
 
 ```
