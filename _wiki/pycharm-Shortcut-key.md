@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: pycharm 常用快捷键
+title: Pycharm 常用快捷键
 categories: pycharm
 description: 常用的 pycharm 常用快捷键。
 keywords: pycharm 快捷键

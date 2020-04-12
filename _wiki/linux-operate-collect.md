@@ -1,12 +1,12 @@
 ---
 layout: wiki
-title: Linux会用到命令积累
+title: Linux 常用命令积累
 categories: linux
 description: linux　命令
 keywords: linux, fedora
 ---
 
-Linux 下常用命令积累
+Linux 环境常用命令积累
 
 # Linux 发行版本查看
 
@@ -124,7 +124,7 @@ gzip FileName
 
 ## 同时打包和压缩
 
-### `.gz` 格式
+### .gz 格式
 
 * 解压
 
@@ -139,7 +139,7 @@ tar zcvf FileName.tar.gz DirName
 
 ```
 
-### `.bz2` 格式
+### .bz2 格式
 
 * 解压
 
@@ -153,7 +153,7 @@ tar jxvf FileName.tar.bz2
 tar jcvf FileName.tar.bz2 DirName
 ```
 
-### `.zip`　格式
+### .zip　格式
 
 * 解压
 
@@ -170,7 +170,7 @@ zip FileName.zip DirName
 
 # Linux　命令行与服务器交互
 
-## 登录服务器使用 `ssh`　命令
+## 登录服务器使用 ssh　命令
 
 ### 以 root　账户登录
 
@@ -187,7 +187,7 @@ ssh username@192.168.1.100
 
 ```
 
-## 上传和下载 `scp` 命令
+## 上传和下载 scp 命令
 
 ### 上传
 
