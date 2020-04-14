@@ -298,9 +298,23 @@ export ALL_PROXY=socks5://127.0.0.1:1080
 
 ```
 
+# Linux下的软硬链接ln命令
+
+* 软链接：相当于win下的快捷方式，删除源文件后链接失效
+* 硬链接：相当于复制一份源文件，删除源文件后不影响链接
+
+```bash
+
+#ln实现硬链接
+$ ln sourceFile NewFile
+
+#ln -s 实现软链接
+$ ln -s sourceFile NewFile
+
+```
 
 ***
 
-**2018-8-6更新**
+**2020-4-14更新**
 
 ***
