@@ -10,7 +10,7 @@ keywords: linux, Java
 
 # List中元素不重复比对
 
-```Java
+```java
 
 class test {
 
