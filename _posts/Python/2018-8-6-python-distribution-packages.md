@@ -27,6 +27,12 @@ sudo pip install twine
 
 ![PyPi](/images/posts/Python/PyPI_Index.png)
 
+# 账户和密码本地配置
+可以配置到$HOME/.pypirc文件中，就不用多次输入了
+
+[pypi]
+username = <username>
+password = <password>
 
 # 配置本地打包配置文件`setup.py`
 
