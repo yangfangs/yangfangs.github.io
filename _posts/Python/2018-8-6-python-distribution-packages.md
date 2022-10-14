@@ -28,11 +28,14 @@ sudo pip install twine
 ![PyPi](/images/posts/Python/PyPI_Index.png)
 
 # 账户和密码本地配置
+
 可以配置到$HOME/.pypirc文件中，就不用多次输入了
 
+```
 [pypi]
 username = <username>
 password = <password>
+```
 
 # 配置本地打包配置文件`setup.py`
 
@@ -143,3 +146,25 @@ twine upload dist/**_.tar.gz
 ```
 
 完成上传你就可以在Pypi上看到你上传的包了。并且可以使用`pip install`安装你的包了。
+
+# 使用markdown 格式的readme文件
+
+```
+
+from setuptools import setup
+
+# read the contents of your README file
+from os import path
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
+
+setup(
+    name='an_example_package',
+    # other arguments omitted
+    long_description=long_description,
+    long_description_content_type='text/markdown'
+
+)
+
+```
